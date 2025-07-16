@@ -101,5 +101,14 @@ The application uses a PostgreSQL database with the following tables:
   - Business: BUS110, B207A/B, BUS310 courses
   - Additional majors: Accounting, English, Education with respective courses
 - **Authentic Data**: Replaced placeholder data with real AOU course information sourced from official websites
+- **Firestore Integration**: Full migration to Cloud Firestore for all data storage operations
+- **Case-Insensitive Search**: Implemented case-insensitive course search functionality
+- **Course Data Population**: Firestore collections populated with authentic AOU course data
+
+### July 2025 Updates:
+- **Complete Firestore Migration**: Replaced in-memory storage with Cloud Firestore for all data operations
+- **Enhanced Course Search**: Case-insensitive search allows users to find courses by code or name regardless of letter case
+- **Firestore Collections**: Created departments, majors, courses, and user_records collections in Firestore
+- **Server-Side Firebase Config**: Added dedicated Firebase configuration for server-side Firestore operations
 
 The application is designed to be deployed on platforms like Replit, with automatic database provisioning and environment variable management. Firebase integration is ready for production use with authentic course data.
