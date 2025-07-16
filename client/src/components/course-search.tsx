@@ -18,7 +18,8 @@ export function CourseSearch({ selectedMajor, onCourseSelect, existingCourses }:
   const { toast } = useToast();
 
   const { data: searchResults = [], isLoading } = useQuery<Course[]>({
-    queryKey: ['/api/courses/search', { query: searchQuery, majorId: selectedMajor }],
+    queryKey: ['/api/courses/search', searchQuery, selectedMajor],
+    queryFn: () => fetch(`/api/courses/search?query=${encodeURIComponent(searchQuery)}&majorId=${encodeURIComponent(selectedMajor)}`).then(res => res.json()),
     enabled: !!searchQuery && searchQuery.length > 1 && !!selectedMajor,
   });
 
