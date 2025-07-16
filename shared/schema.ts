@@ -60,17 +60,13 @@ export type InsertCourse = z.infer<typeof insertCourseSchema>;
 export type InsertUserRecord = z.infer<typeof insertUserRecordSchema>;
 
 export const gradePoints: Record<string, number> = {
-  'A': 4.00,
-  'A-': 3.70,
-  'B+': 3.30,
-  'B': 3.00,
-  'B-': 2.70,
-  'C+': 2.30,
-  'C': 2.00,
-  'C-': 1.70,
-  'D+': 1.30,
-  'D': 1.00,
-  'F': 0.00
+  'A': 4.0,
+  'B+': 3.5,
+  'B': 3.0,
+  'C+': 2.5,
+  'C': 2.0,
+  'D': 1.5,
+  'F': 0.0
 };
 
 export const gradeOptions = Object.keys(gradePoints);

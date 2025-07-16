@@ -1,12 +1,22 @@
-// Firebase configuration - user should provide these details
+import { initializeApp } from 'firebase/app';
+import { getFirestore } from 'firebase/firestore';
+
+// Firebase configuration
 export const firebaseConfig = {
-  apiKey: process.env.VITE_FIREBASE_API_KEY || "",
-  authDomain: process.env.VITE_FIREBASE_AUTH_DOMAIN || "",
-  projectId: process.env.VITE_FIREBASE_PROJECT_ID || "",
-  storageBucket: process.env.VITE_FIREBASE_STORAGE_BUCKET || "",
-  messagingSenderId: process.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "",
-  appId: process.env.VITE_FIREBASE_APP_ID || "",
+  apiKey: "AIzaSyD_kIGHwN-_bLhqp3aKMHJhxpFjUKEgE-U",
+  authDomain: "aou-gpa-calculator.firebaseapp.com",
+  projectId: "aou-gpa-calculator",
+  storageBucket: "aou-gpa-calculator.firebasestorage.app",
+  messagingSenderId: "793865161678",
+  appId: "1:793865161678:web:c9e8015a101e3e20bef99f",
+  measurementId: "G-EE967Y0X95"
 };
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
+// Initialize Firestore
+export const db = getFirestore(app);
 
 // TODO: Initialize Firebase when configuration is provided
 // This file is prepared for Firebase integration

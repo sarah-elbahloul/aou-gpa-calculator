@@ -89,4 +89,17 @@ The application uses a PostgreSQL database with the following tables:
 - `DATABASE_URL`: PostgreSQL connection string (required)
 - Environment variables for any additional external services
 
-The application is designed to be deployed on platforms like Replit, with automatic database provisioning and environment variable management. The current implementation includes fallback data for development and testing purposes.
+## Recent Changes
+
+### December 2024 Updates:
+- **Grading System Correction**: Updated to use official AOU grading scale (A=4.0, B+=3.5, B=3.0, C+=2.5, C=2.0, D=1.5, F=0.0)
+- **Firebase Integration**: Added Firebase/Firestore configuration for production data storage
+- **Enhanced Course Catalog**: Updated with official AOU course data from Kuwait campus including:
+  - Computer Science: M110 (Python Programming), M115 (Python for ML and DS), M109 (.NET Programming)
+  - IT: T215A/B (Communication and IT), T216A/B (Cisco Networking)
+  - Graphics: GD111 (Visual Perception), GD124 (Digital Photography), GD126 (Multimedia Design)
+  - Business: BUS110, B207A/B, BUS310 courses
+  - Additional majors: Accounting, English, Education with respective courses
+- **Authentic Data**: Replaced placeholder data with real AOU course information sourced from official websites
+
+The application is designed to be deployed on platforms like Replit, with automatic database provisioning and environment variable management. Firebase integration is ready for production use with authentic course data.

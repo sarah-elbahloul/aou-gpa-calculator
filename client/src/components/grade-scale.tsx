@@ -3,17 +3,13 @@ import { Info } from "lucide-react";
 import { gradePoints } from "@shared/schema";
 
 const gradePercentages: Record<string, string> = {
-  'A': '90-100%',
-  'A-': '85-89%',
-  'B+': '80-84%',
-  'B': '75-79%',
-  'B-': '70-74%',
-  'C+': '65-69%',
-  'C': '60-64%',
-  'C-': '55-59%',
-  'D+': '50-54%',
-  'D': '45-49%',
-  'F': '0-44%',
+  'A': '100-90%',
+  'B+': '89-82%',
+  'B': '81-74%',
+  'C+': '73-66%',
+  'C': '65-58%',
+  'D': '57-50%',
+  'F': 'Below 50%',
 };
 
 export function GradeScale() {
