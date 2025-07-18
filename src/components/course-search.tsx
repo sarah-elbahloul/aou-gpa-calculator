@@ -7,20 +7,21 @@ import { useToast } from "@/hooks/use-toast";
 import type { Course } from "@shared/schema";
 
 interface CourseSearchProps {
-  selectedMajor: string;
+  selectedFaculty: string;
+  selectedProgram: string;
   onCourseSelect: (course: Course) => void;
   existingCourses: string[];
 }
 
-export function CourseSearch({ selectedMajor, onCourseSelect, existingCourses }: CourseSearchProps) {
+export function CourseSearch({ selectedFaculty, selectedProgram, onCourseSelect, existingCourses }: CourseSearchProps) {
   const [searchQuery, setSearchQuery] = useState("");
   const [showResults, setShowResults] = useState(false);
   const { toast } = useToast();
 
   const { data: searchResults = [], isLoading } = useQuery<Course[]>({
-    queryKey: ['/api/courses/search', searchQuery, selectedMajor],
-    queryFn: () => fetch(`/api/courses/search?query=${encodeURIComponent(searchQuery)}&majorId=${encodeURIComponent(selectedMajor)}`).then(res => res.json()),
-    enabled: !!searchQuery && searchQuery.length > 1 && !!selectedMajor,
+    queryKey: ['/api/courses/search', searchQuery, selectedFaculty, selectedProgram],
+    queryFn: () => fetch(`/api/courses/search?query=${encodeURIComponent(searchQuery)}&ProgramId=${encodeURIComponent(selectedProgram)}`).then(res => res.json()),
+    enabled: !!searchQuery && searchQuery.length > 1 && !!selectedProgram && !!selectedFaculty,
   });
 
   useEffect(() => {
@@ -40,7 +41,7 @@ export function CourseSearch({ selectedMajor, onCourseSelect, existingCourses }:
     onCourseSelect({ ...course, grade: "" });
     setSearchQuery("");
     setShowResults(false);
-    
+
     toast({
       title: "Course added",
       description: `${course.code} - ${course.name} has been added to the semester`,
@@ -61,7 +62,7 @@ export function CourseSearch({ selectedMajor, onCourseSelect, existingCourses }:
         />
         <Search className="absolute right-3 top-3 h-4 w-4 text-gray-400" />
       </div>
-      
+
       {showResults && (
         <div className="absolute z-10 w-full mt-1 bg-white border border-gray-300 rounded-md shadow-lg max-h-60 overflow-y-auto">
           {isLoading ? (
@@ -74,9 +75,8 @@ export function CourseSearch({ selectedMajor, onCourseSelect, existingCourses }:
               return (
                 <div
                   key={course.code}
-                  className={`p-3 hover:bg-gray-100 cursor-pointer border-b last:border-b-0 flex items-center justify-between ${
-                    isAlreadyAdded ? 'opacity-50' : ''
-                  }`}
+                  className={`p-3 hover:bg-gray-100 cursor-pointer border-b last:border-b-0 flex items-center justify-between ${isAlreadyAdded ? 'opacity-50' : ''
+                    }`}
                   onClick={() => !isAlreadyAdded && handleCourseSelect(course)}
                 >
                   <div>
@@ -99,9 +99,9 @@ export function CourseSearch({ selectedMajor, onCourseSelect, existingCourses }:
           )}
         </div>
       )}
-      
+
       {showResults && (
-        <div 
+        <div
           className="fixed inset-0 z-5"
           onClick={() => setShowResults(false)}
         />

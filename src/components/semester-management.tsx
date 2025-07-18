@@ -5,24 +5,12 @@ import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { CourseSearch } from "./course-search";
 import { Calendar, Plus, Trash2, Book } from "lucide-react";
-import { gradeOptions, gradePoints } from "@shared/schema";
-
-interface Course {
-  code: string;
-  name: string;
-  credits: number;
-  grade: string;
-}
-
-interface Semester {
-  id: string;
-  name: string;
-  courses: Course[];
-}
+import { gradeOptions, gradePoints, Semester, Course } from "@shared/schema";
 
 interface SemesterManagementProps {
   semesters: Semester[];
-  selectedMajor: string;
+  selectedProgram: string; // Corresponds to `programCode` from UserRecord
+  selectedFaculty: string; // <--- ADDED: Corresponds to `facultyCode` from UserRecord
   onAddSemester: () => void;
   onRemoveSemester: (semesterId: string) => void;
   onUpdateSemester: (semesterId: string, semester: Semester) => void;
@@ -30,7 +18,8 @@ interface SemesterManagementProps {
 
 export function SemesterManagement({
   semesters,
-  selectedMajor,
+  selectedProgram,
+  selectedFaculty, // <--- Destructure the new prop here
   onAddSemester,
   onRemoveSemester,
   onUpdateSemester,
@@ -131,7 +120,7 @@ export function SemesterManagement({
                         autoFocus
                       />
                     ) : (
-                      <h4 
+                      <h4
                         className="font-medium text-gray-800 cursor-pointer hover:text-primary"
                         onClick={() => setEditingSemester(semester.id)}
                       >
@@ -150,7 +139,8 @@ export function SemesterManagement({
                 </div>
 
                 <CourseSearch
-                  selectedMajor={selectedMajor}
+                  selectedProgram={selectedProgram}
+                  selectedFaculty={selectedFaculty} // <--- PASSED THE NEW PROP HERE!
                   onCourseSelect={(course) => addCourseToSemester(semester.id, course)}
                   existingCourses={semester.courses.map(c => c.code)}
                 />

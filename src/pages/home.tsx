@@ -1,4 +1,4 @@
-import { GPACalculator } from "@/components/gpa-calculator";
+import { GPACalculator } from "@/components/gpa-calculator"; // Use the @/ alias and omit .tsx
 
 export default function Home() {
   return (

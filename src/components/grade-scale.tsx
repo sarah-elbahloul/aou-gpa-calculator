@@ -20,7 +20,7 @@ export function GradeScale() {
           <Info className="text-primary mr-2" />
           AOU Grading Scale
         </h3>
-        
+
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
             <thead className="bg-gray-50">

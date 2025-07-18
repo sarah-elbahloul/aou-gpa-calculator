@@ -5,38 +5,38 @@ import { z } from "zod";
 import { insertUserRecordSchema } from "@shared/schema";
 
 export async function registerRoutes(app: Express): Promise<Server> {
-  
-  // Get all departments
-  app.get("/api/departments", async (req, res) => {
+
+  // Get all faculties
+  app.get("/api/faculties", async (req, res) => {
     try {
-      const departments = await storage.getDepartments();
-      res.json(departments);
+      const faculties = await storage.getFaculties();
+      res.json(faculties);
     } catch (error) {
-      res.status(500).json({ message: "Failed to fetch departments" });
+      res.status(500).json({ message: "Failed to fetch faculties" });
     }
   });
 
-  // Get majors by department
-  app.get("/api/majors/:departmentId", async (req, res) => {
+  // Get programs by faculty
+  app.get("/api/programs/:facultyCode", async (req, res) => {
     try {
-      const { departmentId } = req.params;
-      const majors = await storage.getMajorsByDepartment(departmentId);
-      res.json(majors);
+      const { facultyCode } = req.params;
+      const programs = await storage.getProgramsByFaculty(facultyCode);
+      res.json(programs);
     } catch (error) {
-      res.status(500).json({ message: "Failed to fetch majors" });
+      res.status(500).json({ message: "Failed to fetch programs" });
     }
   });
 
-  // Search courses
+  // Search courses by query and programCode
   app.get("/api/courses/search", async (req, res) => {
     try {
-      const { query, majorId } = req.query;
-      
-      if (!query || !majorId) {
-        return res.status(400).json({ message: "Query and majorId are required" });
+      const { query, programCode } = req.query;
+
+      if (!query || !programCode) {
+        return res.status(400).json({ message: "Query and programCode are required" });
       }
 
-      const courses = await storage.searchCourses(query as string, majorId as string);
+      const courses = await storage.searchCourses(query as string, programCode as string);
       res.json(courses);
     } catch (error) {
       res.status(500).json({ message: "Failed to search courses" });
@@ -48,27 +48,27 @@ export async function registerRoutes(app: Express): Promise<Server> {
     try {
       const { code } = req.params;
       const course = await storage.getCourseByCode(code);
-      
+
       if (!course) {
         return res.status(404).json({ message: "Course not found" });
       }
-      
+
       res.json(course);
     } catch (error) {
       res.status(500).json({ message: "Failed to fetch course" });
     }
   });
 
-  // Get user record
+  // Get user record by sessionId
   app.get("/api/user-record/:sessionId", async (req, res) => {
     try {
       const { sessionId } = req.params;
       const userRecord = await storage.getUserRecord(sessionId);
-      
+
       if (!userRecord) {
         return res.status(404).json({ message: "User record not found" });
       }
-      
+
       res.json(userRecord);
     } catch (error) {
       res.status(500).json({ message: "Failed to fetch user record" });

@@ -2,7 +2,7 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 
 // Firebase configuration
-const firebaseConfig = {
+export const firebaseConfig = {
   apiKey: "AIzaSyD_kIGHwN-_bLhqp3aKMHJhxpFjUKEgE-U",
   authDomain: "aou-gpa-calculator.firebaseapp.com",
   projectId: "aou-gpa-calculator",
@@ -12,8 +12,8 @@ const firebaseConfig = {
   measurementId: "G-EE967Y0X95"
 };
 
-// Initialize Firebase for server-side
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-// Initialize Cloud Firestore and get a reference to the service
+// Initialize Firestore
 export const db = getFirestore(app);
