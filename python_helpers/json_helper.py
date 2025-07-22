@@ -135,4 +135,5 @@ def clean_firestore_keywords(collection_name, keywords_to_remove):
 
 
 # ------------------------------------------------------------------------- End Functions ------------------------------------------------------------------------------------#
-# upload_json_to_firestore('D:\AndroidStudioProjects\AouGpaCalculator\programs.json', 'programs')
+#upload_json_to_firestore('D:\\VisualStudioCodeProjects\\aou-gpa-calculator\\python_helpers\\programs.json', 'programs')
+#upload_json_to_firestore('D:\\VisualStudioCodeProjects\\aou-gpa-calculator\\python_helpers\\faculties.json', 'faculties')

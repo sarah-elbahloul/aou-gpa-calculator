@@ -8,23 +8,35 @@ import type { Course } from "@shared/schema";
 
 interface CourseSearchProps {
   selectedFaculty: string;
-  selectedProgram: string;
+  selectedProgram: string; // Keep if you plan to use it for further filtering
   onCourseSelect: (course: Course) => void;
   existingCourses: string[];
 }
 
-export function CourseSearch({ selectedFaculty, selectedProgram, onCourseSelect, existingCourses }: CourseSearchProps) {
+export function CourseSearch({
+  selectedFaculty,
+  onCourseSelect,
+  existingCourses,
+}: CourseSearchProps) {
   const [searchQuery, setSearchQuery] = useState("");
   const [showResults, setShowResults] = useState(false);
   const { toast } = useToast();
 
   const { data: searchResults = [], isLoading } = useQuery<Course[]>({
-    queryKey: ['/api/courses/search', searchQuery, selectedFaculty, selectedProgram],
-    queryFn: () => fetch(`/api/courses/search?query=${encodeURIComponent(searchQuery)}&ProgramId=${encodeURIComponent(selectedProgram)}`).then(res => res.json()),
-    enabled: !!searchQuery && searchQuery.length > 1 && !!selectedProgram && !!selectedFaculty,
+    queryKey: [
+      "/api/courses/search",
+      searchQuery,
+      selectedFaculty,
+    ],
+    queryFn: () =>
+      fetch(
+        `/api/courses/search?query=${encodeURIComponent(searchQuery)}&facultyCode=${encodeURIComponent(selectedFaculty)}` // Pass faculty and program
+      ).then((res) => res.json()),
+    enabled: !!searchQuery && searchQuery.length > 1 && !!selectedFaculty, // Ensure we have a faculty before querying
   });
 
   useEffect(() => {
+    // Only show results if query is long enough and we have results
     setShowResults(searchQuery.length > 1 && searchResults.length > 0);
   }, [searchQuery, searchResults]);
 
@@ -38,9 +50,9 @@ export function CourseSearch({ selectedFaculty, selectedProgram, onCourseSelect,
       return;
     }
 
-    onCourseSelect({ ...course, grade: "" });
-    setSearchQuery("");
-    setShowResults(false);
+    onCourseSelect({ ...course, grade: "" }); // Add a default empty grade
+    setSearchQuery(""); // Clear search
+    setShowResults(false); // Hide results
 
     toast({
       title: "Course added",

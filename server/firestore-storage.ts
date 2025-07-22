@@ -51,12 +51,24 @@ export class FirestoreStorage {
         return program;
     }
 
-    // Courses by facultyCode and programCode, plus search
-    async searchCourses(queryStr: string, programCode: string): Promise<Course[]> {
+    // Get a single program's details by programCode
+    async getProgramDetails(programCode: string): Promise<Program | undefined> {
+        const programsCol = collection(this.db, "programs");
+        const q = query(programsCol, where("code", "==", programCode));
+        const snapshot = await getDocs(q);
+        if (snapshot.empty) {
+            return undefined;
+        }
+        const programData = snapshot.docs[0].data() as Program;
+        return programData;
+    }
+
+    // Courses by facultyCode plus search
+    async searchCourses(queryStr: string, facultyCode: string): Promise<Course[]> {
         const coursesCol = collection(this.db, "courses");
         const q = query(
             coursesCol,
-            where("programCode", "==", programCode),
+            where("facultyCode", "array-contains", facultyCode),
             where("code", ">=", queryStr.toUpperCase()),
             where("code", "<=", queryStr.toUpperCase() + "\uf8ff")
         );

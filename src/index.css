@@ -66,19 +66,19 @@
   .text-success {
     color: hsl(var(--success));
   }
-  
+
   .text-success-foreground {
     color: hsl(var(--success-foreground));
   }
-  
+
   .bg-success {
     background-color: hsl(var(--success));
   }
-  
+
   .bg-success-foreground {
     background-color: hsl(var(--success-foreground));
   }
-  
+
   .border-success {
     border-color: hsl(var(--success));
   }

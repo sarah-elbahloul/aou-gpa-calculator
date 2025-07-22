@@ -19,7 +19,7 @@ interface SemesterManagementProps {
 export function SemesterManagement({
   semesters,
   selectedProgram,
-  selectedFaculty, // <--- Destructure the new prop here
+  selectedFaculty,
   onAddSemester,
   onRemoveSemester,
   onUpdateSemester,

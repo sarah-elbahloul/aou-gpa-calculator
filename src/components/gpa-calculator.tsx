@@ -9,38 +9,45 @@ import { gradePoints, UserRecord } from "@shared/schema";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
+import LinkedInIcon from '../assets/LinkedInIcon.svg';
+import GitHubIcon from '../assets/GitHubIcon.svg';
+import type { Course, Program, Semester } from "@shared/schema";
 
-interface Course {
-  code: string;
-  name: string;
-  credits: number;
-  grade: string;
-}
+// Helper function to get or generate session ID
+const getOrCreateSessionId = () => {
+  let sessionId = localStorage.getItem('gpa_calculator_session_id');
+  if (!sessionId) {
+    sessionId = Math.random().toString(36).substr(2, 9);
+    localStorage.setItem('gpa_calculator_session_id', sessionId);
+  }
+  return sessionId;
+};
 
-interface Semester {
-  id: string;
-  name: string;
-  courses: Course[];
-}
 
 export function GPACalculator() {
-  const [sessionId] = useState(() => Math.random().toString(36).substr(2, 9));
-  const [selectedFaculty, setSelectedFaculty] = useState("");
-  const [selectedProgram, setSelectedProgram] = useState("");
-  const [semesters, setSemesters] = useState<Semester[]>([]);
-  const [cumulativeGPA, setCumulativeGPA] = useState(0);
-  const [totalCredits, setTotalCredits] = useState(0);
-  const [completedCourses, setCompletedCourses] = useState(0);
+  // Initialize sessionId by trying to get it from localStorage, or creating a new one
+  const [sessionId] = useState(getOrCreateSessionId); // State to manage a unique session ID for user data persistence
+  const [selectedFaculty, setSelectedFaculty] = useState(""); // State to store the currently selected faculty
+  const [selectedProgram, setSelectedProgram] = useState(""); // State to store the currently selected program within the faculty
+  const [requiredCredits, setRequiredCredits] = useState<number | null>(null); // State to store the total required credits for the selected program
+  const [semesters, setSemesters] = useState<Semester[]>([]); // State to store the list of semesters, each containing courses
+  const [cumulativeGPA, setCumulativeGPA] = useState(0); // State to store the calculated cumulative GPA
+  const [totalCredits, setTotalCredits] = useState(0); // State to store the total credits earned across all semesters
+  const [completedCourses, setCompletedCourses] = useState(0); // State to store the number of courses completed
 
-  const { toast } = useToast();
-  const queryClient = useQueryClient();
+  const { toast } = useToast(); // Hook to access the toast notification system
+  const queryClient = useQueryClient(); // Hook to interact with the React Query cache
 
-  // Load user record using useQuery
+  /**
+   * useQuery hook to load user record from the API.
+   * This fetches saved faculty, program, and semester data for the current session.
+   * The data is fetched only once per session and cached.
+   */
   const { data: userRecord } = useQuery<UserRecord | undefined>({
     queryKey: ['/api/user-record', sessionId],
     queryFn: async () => {
       try {
-        const response = await apiRequest('GET', `/api/user-record?sessionId=${sessionId}`);
+        const response = await apiRequest('GET', `/api/user-record/${sessionId}`);
         if (!response.ok) {
           if (response.status === 404) { // Handle case where user record might not exist yet
             return undefined;
@@ -56,6 +63,71 @@ export function GPACalculator() {
     staleTime: Infinity, // Or a suitable time if you want to refetch on focus/mount
   });
 
+  /**
+   * useQuery hook to fetch program details (e.g., required credit hours).
+   * This query is enabled only when a program is selected.
+   */
+  const { data: programData, isLoading: isLoadingProgram } = useQuery<Program | undefined>({
+    queryKey: ['/api/programs', selectedProgram],
+    queryFn: async () => {
+      if (!selectedProgram) return undefined;
+      try {
+        const response = await apiRequest('GET', `/api/program-details?programCode=${encodeURIComponent(selectedProgram)}`);
+        if (!response.ok) {
+          if (response.status === 404) {
+            console.warn(`Program details not found for: ${selectedProgram}`);
+            return undefined;
+          }
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      } catch (error) {
+        console.error("Error fetching program details:", error);
+        return undefined;
+      }
+    },
+    enabled: !!selectedProgram, // Only enable this query if a program is selected
+    staleTime: Infinity,
+  });
+
+  /**
+   * useEffect hook to update the `requiredCredits` state when `programData` changes.
+   * This ensures the required credits are always in sync with the selected program.
+   */
+  useEffect(() => {
+    if (programData?.requiredCreditHours !== undefined) {
+      setRequiredCredits(programData.requiredCreditHours);
+    } else {
+      setRequiredCredits(null); // Reset if programData is not found or credits are missing
+    }
+  }, [programData]);
+
+
+  /**
+   * useEffect hook to clear all semester information when the selected faculty changes.
+   * This ensures that old semester data from a different faculty is not retained.
+   */
+  useEffect(() => {
+    // Only clear semesters if selectedFaculty actually changes and is not initially empty
+    // This code runs AFTER every render where 'selectedFaculty' has changed.
+    if (selectedFaculty && userRecord && userRecord.facultyCode !== selectedFaculty) {
+      setSemesters([]); // Clear all semesters
+      setCumulativeGPA(0); // Reset GPA
+      setTotalCredits(0); // Reset total credits
+      setCompletedCourses(0); // Reset completed courses
+      setSelectedProgram("");
+      toast({
+        title: "Faculty Changed",
+        description: "All semester information has been cleared.",
+      });
+    }
+  }, [selectedFaculty]); // Dependency array: React will only re-run the code inside the useEffect if any of the values in this array have changed since the last render.
+
+  /**
+   * useMutation hook for saving a new user record to the API.
+   * Invalidates the user record query on success to refetch the latest data.
+   */
+
   // Save user record mutation
   const saveUserRecord = useMutation({
     mutationFn: async (data: any) => {
@@ -67,6 +139,10 @@ export function GPACalculator() {
     },
   });
 
+  /**
+   * useMutation hook for updating an existing user record in the API.
+   * Invalidates the user record query on success to refetch the latest data.
+   */
   // Update user record mutation
   const updateUserRecord = useMutation({
     mutationFn: async (data: any) => {
@@ -78,6 +154,10 @@ export function GPACalculator() {
     },
   });
 
+  /**
+   * useEffect hook to load saved user data into the component's state
+   * once the `userRecord` is fetched.
+   */
   // Load saved data
   useEffect(() => {
     if (userRecord) {
@@ -87,10 +167,13 @@ export function GPACalculator() {
     }
   }, [userRecord]);
 
+  /**
+   * useEffect hook to save or update user data whenever relevant state changes.
+   * It checks if a user record already exists to decide between saving or updating.
+   * It also prevents unnecessary API calls while mutations are pending.
+   */
   // Save data when it changes
   useEffect(() => {
-    // Only attempt to save if Faculty and Program are selected, and userRecord has been fetched (even if undefined for new users)
-    // Use isPending instead of isLoading
     if (selectedFaculty && selectedProgram && (userRecord !== undefined || (userRecord === undefined && !saveUserRecord.isPending && !updateUserRecord.isPending))) {
       const userData = {
         sessionId,
@@ -107,6 +190,11 @@ export function GPACalculator() {
     }
   }, [selectedFaculty, selectedProgram, semesters, userRecord, saveUserRecord.isPending, updateUserRecord.isPending]);
 
+  /**
+   * Calculates the cumulative GPA based on all courses across all semesters.
+   * Updates `cumulativeGPA`, `totalCredits`, and `completedCourses` states.
+   * Displays a toast notification with the calculated GPA.
+   */
   const calculateGPA = () => {
     let totalGradePoints = 0;
     let totalCreditsEarned = 0;
@@ -133,6 +221,10 @@ export function GPACalculator() {
     });
   };
 
+  /**
+   * Adds a new semester to the list of semesters.
+   * Limits the number of semesters to 12 and shows a toast if the limit is reached.
+   */
   const addSemester = () => {
     if (semesters.length >= 12) {
       toast({
@@ -152,14 +244,29 @@ export function GPACalculator() {
     setSemesters([...semesters, newSemester]);
   };
 
+  /**
+   * Removes a semester from the list based on its ID.
+   * @param semesterId The ID of the semester to remove.
+   */
   const removeSemester = (semesterId: string) => {
     setSemesters(semesters.filter(s => s.id !== semesterId));
   };
 
+  /**
+   * Updates an existing semester in the list.
+   * @param semesterId The ID of the semester to update.
+   * @param updatedSemester The new semester object to replace the old one.
+   */
   const updateSemester = (semesterId: string, updatedSemester: Semester) => {
     setSemesters(semesters.map(s => s.id === semesterId ? updatedSemester : s));
   };
 
+
+  /**
+   * Calculates the GPA for the most recently added semester.
+   * Returns 0 if no semesters exist.
+   * @returns The GPA of the current (last) semester, rounded to two decimal places.
+   */
   const getCurrentSemesterGPA = () => {
     if (semesters.length === 0) return 0;
 
@@ -177,6 +284,18 @@ export function GPACalculator() {
     return totalCredits > 0 ? Math.round((totalGradePoints / totalCredits) * 100) / 100 : 0;
   };
 
+  // Determine the remaining credits and estimated graduation year
+  const remainingCredits = requiredCredits !== null ? Math.max(0, requiredCredits - totalCredits) : null;
+  // Estimate years remaining based on remaining credits (assuming 15 credits per year for simplicity)
+  const estimatedYearsRemaining = remainingCredits !== null && remainingCredits > 0
+    ? Math.ceil(remainingCredits / 15)
+    : 0;
+
+  // Calculate estimated graduation year
+  const estimatedGraduationYear = (remainingCredits !== null && totalCredits > 0)
+    ? new Date().getFullYear() + estimatedYearsRemaining
+    : "N/A";
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
@@ -186,9 +305,6 @@ export function GPACalculator() {
             <div className="flex items-center space-x-3">
               <GraduationCap className="h-8 w-8" />
               <h1 className="text-2xl font-bold">AOU GPA Calculator</h1>
-            </div>
-            <div className="text-sm opacity-90">
-              Arab Open University
             </div>
           </div>
         </div>
@@ -218,6 +334,7 @@ export function GPACalculator() {
           <SemesterManagement
             semesters={semesters}
             selectedProgram={selectedProgram}
+            selectedFaculty={selectedFaculty}
             onAddSemester={addSemester}
             onRemoveSemester={removeSemester}
             onUpdateSemester={updateSemester}
@@ -287,7 +404,12 @@ export function GPACalculator() {
                 </div>
                 <div className="text-center">
                   <div className="text-2xl font-bold text-gray-800">
-                    {totalCredits > 0 ? new Date().getFullYear() + Math.ceil((120 - totalCredits) / 15) : "N/A"}
+                    {isLoadingProgram
+                      ? "Loading..."
+                      : requiredCredits !== null
+                        ? estimatedGraduationYear
+                        : "N/A"
+                    }
                   </div>
                   <div className="text-sm text-gray-600">Est. Graduation</div>
                 </div>
@@ -299,7 +421,47 @@ export function GPACalculator() {
 
       <footer className="bg-gray-800 text-white py-6 mt-12">
         <div className="container mx-auto px-4 text-center">
-          <p>&copy; 2024 Arab Open University - GPA Calculator</p>
+          <div className="flex justify-center items-center mt-2 space-x-4">
+            <p>Built by Sarah Elbahloul</p>
+            <a
+              href="https://www.linkedin.com/in/sarah-elbahloul/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 hover:text-blue-300"
+            >
+              <svg
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                className="w-6 h-6"
+                aria-hidden="true"
+              >
+                {LinkedInIcon}
+                <path d="M16.35 16.35h-2.1c0 0 0-3.69 0-3.9 0-.21.09-.43.3-.59.21-.16.51-.21.71-.21.9 0 1.21.68 1.21 1.63v3.07zM20 20h-3.69v-5.83c0-1.42-.51-2.3-1.89-2.3-1.02 0-1.63.68-1.89 1.34h-.05v-1.12H10V20h3.7V14.3c0-.1.01-.2.02-.31.07-.4.32-.67.75-.67.54 0 .9.39.9.96V20H20v-.05zM7.17 9.12a2 2 0 10-.01-4 2 2 0 000 4zM5.27 20H9V9.17H5.27V20zM22 0H2C.9 0 0 .9 0 2v20c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z" />
+              </svg>
+              <span className="sr-only">LinkedIn</span>
+            </a>
+            <a
+              href="https://github.com/sarah-elbahloul"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 hover:text-blue-300"
+            >
+              <svg
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                className="w-6 h-6"
+                aria-hidden="true"
+              >
+                {GitHubIcon}
+                <path
+                  fillRule="evenodd"
+                  d="M12 2C6.477 2 2 6.484 2 12.017c0 4.418 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.529 2.341 1.088 2.91.829.091-.642.359-1.083.654-1.334-2.22-.253-4.555-1.113-4.555-4.93 0-1.09.39-1.984 1.029-2.685-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0112 6.844c.85.004 1.701.12 2.499.356 1.909-1.296 2.747-1.025 2.747-1.025.546 1.379.202 2.398.099 2.65.64.701 1.029 1.595 1.029 2.685 0 3.826-2.339 4.673-4.566 4.92.369.317.672.92.672 1.855 0 1.33-.012 2.41-.012 2.727 0 .267.18.577.688.484C21.137 20.28 24 16.518 24 12.017 24 6.484 19.522 2 14 2h-2z"
+                  clipRule="evenodd"
+                />
+              </svg>
+              <span className="sr-only">GitHub</span>
+            </a>
+          </div>
         </div>
       </footer>
     </div>

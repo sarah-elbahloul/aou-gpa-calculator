@@ -11,6 +11,7 @@ export interface Program {
   code: string;
   name: string;
   facultyCode: string;
+  requiredCreditHours: number;
 }
 
 export interface Course {
@@ -24,19 +25,13 @@ export interface Course {
 export interface Semester {
   id: string;
   name: string;
-  courses: {
-    code: string;
-    name: string;
-    credits: number;
-    grade: string;
-  }[];
+  courses: Course[];
 }
 
 export interface UserRecord {
-  id?: string;
   sessionId: string;
-  facultyCode: string;  // replaced departmentId
-  programCode: string;  // replaced programId
+  facultyCode: string;
+  programCode: string;
   semesters: Semester[];
   createdAt: number;
   updatedAt: number;
@@ -53,14 +48,14 @@ export const insertProgramSchema = z.object({
   code: z.string().max(50),
   name: z.string(),
   facultyCode: z.string().max(50),
+  requiredCreditHours: z.number().max(3)
 });
 
 export const insertCourseSchema = z.object({
   code: z.string().max(20),
   name: z.string(),
   credits: z.number(),
-  facultyCode: z.string().max(50),
-  programCode: z.string().max(50),
+  facultyCode: z.array(z.string().max(4)),
   grade: z.string().max(4),
 });
 
@@ -77,6 +72,7 @@ export const insertUserRecordSchema = z.object({
           code: z.string(),
           name: z.string(),
           credits: z.number(),
+          facultyCode: z.array(z.string().max(3)),
           grade: z.string(),
         })
       ),

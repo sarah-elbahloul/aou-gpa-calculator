@@ -6,6 +6,9 @@ import { insertUserRecordSchema } from "@shared/schema";
 
 export async function registerRoutes(app: Express): Promise<Server> {
 
+  // Initialize Firestore and Auth before setting up routes
+  await storage.initializeFirestore();
+
   // Get all faculties
   app.get("/api/faculties", async (req, res) => {
     try {
@@ -27,19 +30,39 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
-  // Search courses by query and programCode
+  // Get a single program's details by programCode
+  app.get("/api/program-details", async (req, res) => {
+    try {
+      const { programCode } = req.query;
+      if (!programCode || typeof programCode !== 'string') {
+        return res.status(400).json({ message: "Program code is required" });
+      }
+      const program = await storage.getProgramDetails(programCode);
+      if (!program) {
+        return res.status(404).json({ message: "Program not found" });
+      }
+      res.json(program);
+    } catch (error: any) {
+      console.error("Error in routes.ts: /api/program-details:", error);
+      res.status(500).json({ message: `Failed to fetch program details: ${error.message || error}` });
+    }
+  });
+
+
+  // Search courses by query and facultyCode
   app.get("/api/courses/search", async (req, res) => {
     try {
-      const { query, programCode } = req.query;
+      const { query, facultyCode } = req.query;
 
-      if (!query || !programCode) {
-        return res.status(400).json({ message: "Query and programCode are required" });
+      if (!query || !facultyCode) {
+        return res.status(400).json({ message: "Query and facultyCode are required" });
       }
 
-      const courses = await storage.searchCourses(query as string, programCode as string);
+      const courses = await storage.searchCourses(query as string, facultyCode as string);
       res.json(courses);
-    } catch (error) {
-      res.status(500).json({ message: "Failed to search courses" });
+    } catch (error: any) {
+      console.error("Error in routes.ts: /api/courses/search:", error);
+      res.status(500).json({ message: `Failed to search courses: ${error.message || error}` });
     }
   });
 
