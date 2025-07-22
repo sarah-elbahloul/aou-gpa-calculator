@@ -1221,7 +1221,13 @@
         "name": "Small Business Management ",
         "credits": 4,
         "facultyCode": [
-            "FBS"
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
         ]
     },
     {
@@ -1229,7 +1235,13 @@
         "name": "Data Analysis ",
         "credits": 4,
         "facultyCode": [
-            "FBS"
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
         ]
     },
     {
@@ -1597,7 +1609,13 @@
         "name": "Chinese for Beginners (I) ",
         "credits": 3,
         "facultyCode": [
-            "FLS"
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
         ]
     },
     {
@@ -1605,7 +1623,13 @@
         "name": "Chinese for Beginners (II)  ",
         "credits": 3,
         "facultyCode": [
-            "FLS"
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
         ]
     },
     {
@@ -3612,7 +3636,13 @@
         "name": "Academic Writing  ",
         "credits": 4,
         "facultyCode": [
-            "FLS"
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
         ]
     },
     {
@@ -3620,7 +3650,13 @@
         "name": "Reading Comprehension  ",
         "credits": 4,
         "facultyCode": [
-            "FLS"
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
         ]
     },
     {
@@ -3628,7 +3664,13 @@
         "name": "Oral & Presentation Skills Course  ",
         "credits": 4,
         "facultyCode": [
-            "FLS"
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
         ]
     },
     {
@@ -4284,7 +4326,13 @@
         "name": "French for Beginners (I)  ",
         "credits": 3,
         "facultyCode": [
-            "FLS"
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
         ]
     },
     {
@@ -4292,7 +4340,13 @@
         "name": "French for Beginners (II)  ",
         "credits": 3,
         "facultyCode": [
-            "FLS"
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
         ]
     },
     {
@@ -4422,14 +4476,6 @@
         ]
     },
     {
-        "code": "GR101EL",
-        "name": "Self-Learning Skills ",
-        "credits": 3,
-        "facultyCode": [
-            "FBS"
-        ]
-    },
-    {
         "code": "GR111",
         "name": "Arabic Islamic Civilization  ",
         "credits": 3,
@@ -4463,7 +4509,12 @@
         "credits": 3,
         "facultyCode": [
             "FLS",
-            "FE"
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
         ]
     },
     {
@@ -4471,15 +4522,13 @@
         "name": "Life skills and Coexistence ",
         "credits": 3,
         "facultyCode": [
-            "FE"
-        ]
-    },
-    {
-        "code": "GR118E",
-        "name": "Life Skills and Coexistence ",
-        "credits": 3,
-        "facultyCode": [
-            "FE"
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
         ]
     },
     {
@@ -4495,7 +4544,13 @@
         "name": "Environment and Health ",
         "credits": 0,
         "facultyCode": [
-            "FE"
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
         ]
     },
     {
@@ -4510,22 +4565,6 @@
             "FLA",
             "FMJ",
             "FMC"
-        ]
-    },
-    {
-        "code": "GR131E",
-        "name": "Egyptian Society: History, Civilization, and Future ",
-        "credits": 3,
-        "facultyCode": [
-            "FE"
-        ]
-    },
-    {
-        "code": "GR131EL",
-        "name": "History and Civilization of the Kingdom of Bahrain (for non-Arabic Speakers) ",
-        "credits": 3,
-        "facultyCode": [
-            "FBS"
         ]
     },
     {
@@ -4549,7 +4588,13 @@
         "name": "Learning and Information Technology ",
         "credits": 3,
         "facultyCode": [
-            "FCS"
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
         ]
     },
     {
@@ -7453,7 +7498,13 @@
         "name": "Spanish for Beginners (I)  ",
         "credits": 3,
         "facultyCode": [
-            "FLS"
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
         ]
     },
     {
@@ -7461,7 +7512,13 @@
         "name": "Spanish for Beginners (II)  ",
         "credits": 3,
         "facultyCode": [
-            "FLS"
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
         ]
     },
     {
@@ -7746,7 +7803,7 @@
     },
     {
         "code": "TM105",
-        "name": "Introduction to Programming ",
+        "name": "Introduction to Programming using Java",
         "credits": 4,
         "facultyCode": [
             "FCS"

@@ -28,8 +28,34 @@ def initialize_firebase():
     return firestore.client()
 
 def upload_json_to_firestore(json_file_path, collection_name):
-    """Uploads a JSON file to a specified Firestore collection.
-    If the JSON is a list of dicts with a 'code' key, that key is used as the document ID.
+    """Uploads a JSON file to a specified Firestore collection."""
+    db = initialize_firebase()
+    if not db:
+        return
+    try:
+        with open(json_file_path, "r", encoding="utf-8") as json_file:
+            data = json.load(json_file)
+    except FileNotFoundError:
+        logging.error(f"❌ JSON file not found: {json_file_path}")
+        return
+    except json.JSONDecodeError:
+        logging.error(f"❌ Error decoding JSON file: {json_file_path}")
+        return
+
+    try:
+        for doc_id, doc_data in data.items():
+            db.collection(collection_name).document(doc_id).set(doc_data)
+
+        logging.info(f"✅ Data from {json_file_path} uploaded successfully to '{collection_name}'!")
+    except Exception as e:
+        logging.error(f"❌ Failed to upload data to Firestore: {e}")
+
+def upload_json_array_to_firestore(json_file_path, collection_name):
+    """
+    Uploads a JSON file to a specified Firestore collection.
+    Supports:
+    - List of dicts with a 'code' key: generates doc IDs like '1-FCS', '2-FBA', etc.
+    - Dict of {id: data} format: uses keys as document IDs.
     """
     db = initialize_firebase()
     if not db:
@@ -46,11 +72,11 @@ def upload_json_to_firestore(json_file_path, collection_name):
 
     try:
         if isinstance(data, list):
-            for item in data:
+            for i, item in enumerate(data, start=1):
                 if not isinstance(item, dict) or "code" not in item:
                     logging.warning("⚠️ Skipped invalid item without 'code': %s", item)
                     continue
-                doc_id = item["code"]
+                doc_id = f"{i}-{item['code']}"
                 db.collection(collection_name).document(doc_id).set(item)
         elif isinstance(data, dict):
             for doc_id, doc_data in data.items():
@@ -62,6 +88,7 @@ def upload_json_to_firestore(json_file_path, collection_name):
         logging.info(f"✅ Data from {json_file_path} uploaded successfully to '{collection_name}'!")
     except Exception as e:
         logging.error(f"❌ Failed to upload data to Firestore: {e}")
+
 
 # Initialize Firebase (Make sure you've set your service account path in an environment variable)
 def initialize_firestore():
@@ -148,4 +175,4 @@ def clean_firestore_keywords(collection_name, keywords_to_remove):
 
 # ------------------------------------------------------------------------- End Functions ------------------------------------------------------------------------------------#
 #upload_json_to_firestore('D:\\VisualStudioCodeProjects\\aou-gpa-calculator\\python_helpers\\programs.json', 'programs')
-#upload_json_to_firestore('D:\\VisualStudioCodeProjects\\aou-gpa-calculator\\python_helpers\\courses.json', 'courses')
+upload_json_array_to_firestore('D:\\VisualStudioCodeProjects\\aou-gpa-calculator\\python_helpers\\courses.json', 'courses')

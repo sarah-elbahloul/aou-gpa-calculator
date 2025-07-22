@@ -189,55 +189,27 @@ export function GPACalculator() {
   }, [userRecord]);
 
 
-  /**
-   * useEffect hook to save or update user data whenever relevant state changes.
-   * It checks if a user record already exists to decide between saving or updating.
-   * It also prevents unnecessary API calls while mutations are pending.
-   */
+  // Save data when it changes
   useEffect(() => {
-    // Only attempt to save/update once the initial userRecord has been processed and we have a faculty/program selected.
-    if (!isInitialLoadComplete || !selectedFaculty || !selectedProgram) {
-      return;
+    if (selectedFaculty && selectedProgram && (userRecord !== undefined || (userRecord === undefined && !saveUserRecord.isPending && !updateUserRecord.isPending))) {
+      const userData = {
+        sessionId,
+        facultyCode: selectedFaculty,
+        programCode: selectedProgram,
+        semesters,
+      };
+      if (userRecord) {
+        updateUserRecord.mutate(userData);
+      } else {
+        saveUserRecord.mutate(userData);
+      }
     }
+  }, [selectedFaculty, selectedProgram, semesters,]);
 
-    const currentData = {
-      sessionId,
-      facultyCode: selectedFaculty,
-      programCode: selectedProgram,
-      semesters,
-    };
 
-    // Prevent immediate re-trigger if mutations are pending or if data hasn't truly changed
-    if (saveUserRecord.isPending || updateUserRecord.isPending) {
-      return;
-    }
 
-    // OPTIMIZATION: Check if the data has actually changed before mutating
-    // This is crucial to prevent unnecessary Firestore writes.
-    // Perform a deep comparison if `semesters` can be large or complex.
-    // For basic types and simple arrays, a shallow comparison might be enough,
-    // but for semesters with courses, deep comparison is safer.
-    const hasDataChanged =
-      userRecord?.facultyCode !== currentData.facultyCode ||
-      userRecord?.programCode !== currentData.programCode ||
-      // Simple JSON stringify comparison for semesters.
-      // Be cautious with this for very large objects, but it's often practical.
-      JSON.stringify(userRecord?.semesters || []) !== JSON.stringify(currentData.semesters);
 
-    if (!hasDataChanged && userRecord) {
-      // If data hasn't changed and a userRecord already exists, no need to update.
-      return;
-    }
 
-    // Decide whether to update existing or save new
-    if (userRecord) {
-      updateUserRecord.mutate(currentData);
-    } else {
-      // Only save a new record if it genuinely doesn't exist yet based on userRecord being undefined.
-      saveUserRecord.mutate(currentData);
-    }
-
-  }, [selectedFaculty, selectedProgram, semesters, userRecord, isInitialLoadComplete, saveUserRecord.isPending, updateUserRecord.isPending]);
 
   /**
    * Calculates the cumulative GPA based on all courses across all semesters.
