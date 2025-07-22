@@ -1,0 +1,8153 @@
+[
+    {
+        "code": "4AD010",
+        "name": "Introduction to Art and Design in Context ",
+        "credits": 5,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "4VC012",
+        "name": "Studio Practice Ideas, concepts and communication methods ",
+        "credits": 5,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "4VC013",
+        "name": "Elements, Composition and digital Foundation ",
+        "credits": 5,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "4VC014",
+        "name": "Introduction to Programming and Interactivity for Media Arts ",
+        "credits": 5,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "4VC015",
+        "name": "Digital Photography and Media Production  ",
+        "credits": 5,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "4VC016",
+        "name": "Typography-I ",
+        "credits": 5,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "5AD008",
+        "name": "Critical and Contextual Issues in Art and Design  ",
+        "credits": 5,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "5VC012",
+        "name": "Visual Narrative  ",
+        "credits": 5,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "5VC013",
+        "name": "Typography-II and computer Graphics ",
+        "credits": 5,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "5VC015",
+        "name": "Digital and Emerging Media Design ",
+        "credits": 5,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "5VC017",
+        "name": "Digital Visualization Studio  ",
+        "credits": 5,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "5VC019",
+        "name": "Visual Effects, Compositing and Mixed Media Production ",
+        "credits": 5,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "6AD001",
+        "name": "Creative Industries and Opportunities ",
+        "credits": 6,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "6AD002",
+        "name": "Research Methods for Graphic Design ",
+        "credits": 6,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "6VC012",
+        "name": "Graduation Project ",
+        "credits": 6,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "6VC015",
+        "name": "Digital Media Design for Mobile Devices ",
+        "credits": 6,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "6VC018",
+        "name": "Independent Graphic Design Practice ",
+        "credits": 6,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "6VC019",
+        "name": "Major Aspects of Visual Communication Projects ",
+        "credits": 6,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "A112A",
+        "name": "Cultures (I) ",
+        "credits": 8,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "A112B",
+        "name": "Cultures (II) ",
+        "credits": 8,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "A112T",
+        "name": "Cultures T  ",
+        "credits": 8,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "A215A",
+        "name": "Creative Writing (I) ",
+        "credits": 8,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "A215B",
+        "name": "Creative Writing (II) ",
+        "credits": 8,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "A230A",
+        "name": "Reading and Studying Literature (I) ",
+        "credits": 8,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "A230B",
+        "name": "Reading and Studying Literature (II) ",
+        "credits": 8,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "A335A",
+        "name": "Literature in Transition I ",
+        "credits": 8,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "A335B",
+        "name": "Literature in Transition II ",
+        "credits": 8,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "A801",
+        "name": "Research in English Studies  ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "A802",
+        "name": "Theories in Criticism  ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "A803",
+        "name": "The English Novel  ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "A804",
+        "name": "Cultural Studies  ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "A805",
+        "name": "The 19th and 20th Century Novel: The Historical Approach  ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "A805N",
+        "name": "Dramatic Dialogues ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "A806",
+        "name": "Studies in Poetry  ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "A807",
+        "name": "Comparative Literature  ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "A808",
+        "name": "Postcolonial Studies  ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "A813",
+        "name": "Literature in context",
+        "credits": 16,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "A817",
+        "name": "MA Dissertation",
+        "credits": 16,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "AA100A",
+        "name": "The Arts Past and Present (I) ",
+        "credits": 8,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "AA100B",
+        "name": "The Arts Past and Present (II) ",
+        "credits": 8,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "AA810",
+        "name": "Postgraduate Foundation Module in Literature",
+        "credits": 16,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "ACC204",
+        "name": "Intermediate financial accounting  ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACC300",
+        "name": "Accounting Information Systems ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACC302",
+        "name": "Principles of Auditing & Assurance Services ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACC610",
+        "name": "Advanced Management Accounting ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACC620",
+        "name": "Advanced Cost Accounting ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACC630",
+        "name": "Advanced Financial Accounting and Reporting ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACC635",
+        "name": "Financial and Accounting Analysis ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACC640",
+        "name": "Advanced Topics in Accounting ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACC645",
+        "name": "Research Methodologies in accounting ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACC650",
+        "name": "International Accounting Standards ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACC655",
+        "name": "Accounting Information Systems ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACC660",
+        "name": "Auditing and Attestation ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACC665",
+        "name": "Business Environment and Concepts ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACC670",
+        "name": "Advanced Financial and Risk Management ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACC675",
+        "name": "Tax, Business Law and Regulation ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACC680",
+        "name": "Internal control and Professional Ethics ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACC690",
+        "name": "Comprehensive Exam ",
+        "credits": 0,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACC697",
+        "name": "Dissertation 1 ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACC698",
+        "name": "Dissertation 2 ",
+        "credits": 6,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACC699",
+        "name": "Dissertation 3 ",
+        "credits": 0,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACCT201",
+        "name": "Principles of Accounting (1) ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACCT202",
+        "name": "Accounting Principles (2) ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACCT250",
+        "name": "Computer Application in Accounting ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACCT301",
+        "name": "Accounting Information System ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACCT305",
+        "name": "Cost Accounting  ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACCT306",
+        "name": "Managerial Accounting ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACCT307",
+        "name": "Governmental Accounting ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACCT311",
+        "name": "Audit of Accounting Information System  ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACCT320",
+        "name": "Intermediate Accounting (1) ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACCT322",
+        "name": "Intermediate Accounting (2) ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACCT330",
+        "name": "Financial Statement Analysis ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACCT340",
+        "name": "Tax Accounting and Zakat ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACCT345",
+        "name": "Corporate Accounting ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACCT350",
+        "name": "Accounting for banks and financial institutions ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACCT401",
+        "name": "Accounting Theory ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACCT402",
+        "name": "Auditing ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACCT403",
+        "name": "Advanced Financial Accounting ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACCT412",
+        "name": "International audit standards  ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACCT413",
+        "name": "International Accounting Standards ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACCT420",
+        "name": "International Accounting ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACCT430",
+        "name": "Field Training in  Accounting ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACCT430",
+        "name": "Field Training in  Accounting ",
+        "credits": 6,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACCT440",
+        "name": "Research Methodology in Accounting ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACT111",
+        "name": "Financial Accounting ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ACT112",
+        "name": "Managerial Accounting ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "AFL112",
+        "name": "اللغة العربية للناطقين بغيرها  2 ",
+        "credits": 3,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "AR111",
+        "name": "Arabic Communication Skills (I)  ",
+        "credits": 3,
+        "facultyCode": [
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
+        ]
+    },
+    {
+        "code": "AR111",
+        "name": "مهارات الاتصال في اللغة العربية (1) ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "AR112",
+        "name": "Arabic Communication Skills (II)  ",
+        "credits": 3,
+        "facultyCode": [
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
+        ]
+    },
+    {
+        "code": "AR112",
+        "name": "مهارات الاتصال في اللغة العربية (2) ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "AR113",
+        "name": "Arabic Communication Skills (III)",
+        "credits": 3,
+        "facultyCode": [
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
+        ]
+    },
+    {
+        "code": "AR113",
+        "name": "مهارات التواصل في اللغة العربية ",
+        "credits": 3,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "ARBN",
+        "name": "Arabic Language  ",
+        "credits": 0,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "B122",
+        "name": "An Introduction to Retail management and Marketing ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B123",
+        "name": "Management Practice ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B124",
+        "name": "Fundamentals of Accounting ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B205A",
+        "name": "Exploring innovation and entrepreneurship (A) ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B205B",
+        "name": "Exploring innovation and entrepreneurship (B) ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B206",
+        "name": "Understanding Customers ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B207A",
+        "name": "Shaping Business Opportunities I ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B207-A",
+        "name": "Shaping Business Opportunities ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "B207B",
+        "name": "Shaping Business Opportunities II ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B207-B",
+        "name": "Shaping Business Opportunities ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "B291",
+        "name": "Financial Accounting ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B292",
+        "name": "Management Accounting ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B294",
+        "name": "Financial Analysis and Decision Making ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B324",
+        "name": "Marketing and Society ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B325",
+        "name": "Managing across organisational and cultural boundaries ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B326",
+        "name": "Advanced Financial Accounting ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B327",
+        "name": "Sustainable enterprise and innovation ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B328",
+        "name": "Marketing in Action ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B329",
+        "name": "Leadership in a changing world  ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B340",
+        "name": "Asset Pricing and Corporate Finance ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B391",
+        "name": "Management accounting and finance ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B392",
+        "name": "Advanced Management Accounting ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B628",
+        "name": "Managing 1: Organizations and People ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B629",
+        "name": "Managing 2: Marketing and Finance ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B859",
+        "name": "Financial Strategy: Valuation, Governance, and Ethics ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B861",
+        "name": "Investment and portfolio management ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B863",
+        "name": "The Human Resource Professional ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B864",
+        "name": "Human resource management in context ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B870A",
+        "name": "Managing in a changing world-Management ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B870B",
+        "name": "Managing in a changing world-Marketing ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B872",
+        "name": "Creating and sustaining value-Financial Management ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B873",
+        "name": "Effective Strategic management ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B874",
+        "name": "Finance for strategic decision making ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B875",
+        "name": "MBA project: leaders of change (Capstone) ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B898",
+        "name": "Comprehensive Exam ",
+        "credits": 0,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B899A",
+        "name": "MBA Thesis Proposal ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "B899B",
+        "name": "Thesis  ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "BA100",
+        "name": "Career Planning and Development ",
+        "credits": 1,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "BAS400",
+        "name": "Applied Studies for Business Students ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "BB293",
+        "name": "Financial Accounting in Context ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "BB841",
+        "name": "Managing Financial Risk ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "BB845\t",
+        "name": "Strategic Human Resource Management ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "BB848",
+        "name": "Leadership and management intercultural context ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "BB849",
+        "name": "Supply chain management ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "BB851",
+        "name": "Entrepreneurship in context ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "BDE850",
+        "name": "Digital Economy in Business ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "BDF106",
+        "name": "Introduction to administrative and office systems ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "BDF206",
+        "name": "Office Applications (1) ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "BDF406",
+        "name": "Office and administrative applications ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "BE322",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "BSIT101",
+        "name": "Multimedia Applications ",
+        "credits": 2,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "BUC111",
+        "name": "Business Communication 1 ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "BUC112",
+        "name": "Business Communication 2 ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "BUS101",
+        "name": "Introduction to Math for Business ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "BUS102",
+        "name": "Introduction to Statistics ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "BUS110",
+        "name": "Introduction to Business ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "BUS115",
+        "name": "Small Business Management ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "BUS202",
+        "name": "Data Analysis ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "BUS208",
+        "name": "Contemporary issues in marketing ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "BUS310",
+        "name": "Strategic Management ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "BUS628",
+        "name": "Global Human Resource Management  ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "BUS629",
+        "name": "International Management ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "CEF101",
+        "name": "Introduction to Early Childhood  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CEF102",
+        "name": "Educational Games ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CEF103",
+        "name": "Anatomy and Physiology of the Human Body  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CEF104",
+        "name": "Outdoor Activities and Recreation  ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CEF105",
+        "name": "Fundamentals of Early Childhood Curricula and Programs  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CEF106E",
+        "name": "Sensory Education ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CEF107E",
+        "name": "Health Education  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CEF219",
+        "name": "Analysis of Children's Drawings  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CEF220",
+        "name": "Music Education (1) ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CEF221",
+        "name": "Arts and Handicrafts for Children  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CEF222",
+        "name": " Planning and Organizing the Learning and Teaching Environment  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CEF223",
+        "name": "Motor Education for Children  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CEF224E",
+        "name": "Neuro-Psychiatric Disorders in Children  ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CEF225E",
+        "name": "Aesthetic Appreciation for Children in the Digital Age  ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CEF344",
+        "name": "Music Education (2)  ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CEF345",
+        "name": "Visual Arts for Children ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CEF346",
+        "name": "Child Rights and Citizenship ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CEF347",
+        "name": "Principles and Philosophy of Montessori  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CEF348E",
+        "name": "Quality Performance and Accreditation in Early Childhood  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CEF349E",
+        "name": "Community Participation in Early Childhood  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CES110",
+        "name": "Psychology of Play in Children  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CES111",
+        "name": "Art Education for Children  ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CES112",
+        "name": "Child Health  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CES113",
+        "name": "Language Skills for Kindergarten Children  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CES114",
+        "name": "Directed Motor Play Activities for Children  ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CES115E",
+        "name": "Children’s Library  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CES116E",
+        "name": "Educational Singing Games ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CES231",
+        "name": "Music Education (2)  ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CES232",
+        "name": "Motor Programs for Children  ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CES233",
+        "name": "Foreign language skills for kindergarten children ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CES234",
+        "name": "Children's Stories and Tales  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CES235",
+        "name": "Children's Literature ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CES236E",
+        "name": "Smart Applications for Children  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CES237E",
+        "name": "Strategies and Programs for Early Detection and Intervention  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CES355",
+        "name": "Scientific and Mathematical Concepts for Kindergarten Children ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CES356",
+        "name": "Museum Education ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CES357",
+        "name": "Child Posture Education  ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CES358",
+        "name": "Media and Children's Culture  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CES359",
+        "name": "Theatre and Drama in Early Childhood  ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CES360E",
+        "name": "Self-Directed Learning and Professional Development in Early Childhood  ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CES361E",
+        "name": "Historical and Geographical Concepts and Activities for Kindergarten Children  ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "CH101",
+        "name": "Chinese for Beginners (I) ",
+        "credits": 3,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "CH102",
+        "name": "Chinese for Beginners (II)  ",
+        "credits": 3,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "Csp101",
+        "name": "Sports Media Management ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "Csp102",
+        "name": "Sports media ethics and legislation ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "Csp103",
+        "name": "Writing and preparing sports media content ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "Csp104",
+        "name": "Sports reporter ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "Csp105",
+        "name": "Sports commentary and analysis skills ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "Csp201",
+        "name": "Presenting sports programmes ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "Csp202",
+        "name": "Design and production of sports websites ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "Csp203",
+        "name": "Sports Programs Direction ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "Csp204",
+        "name": "Multimedia and Sports Media Platforms ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "Csp205",
+        "name": "Graduation project ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "DD209A",
+        "name": "Running the Economy ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DD209B",
+        "name": "Running the Economy ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DD309A",
+        "name": "Doing Economics ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DD309B",
+        "name": "Doing Economics ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF-101",
+        "name": "Reading for the Deaf and hearing-Impaired ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF102",
+        "name": "Islamic Education ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF103",
+        "name": "Arabic Language Skills (1) ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF104",
+        "name": "Self-Learning Skills ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF105",
+        "name": "Deaf Education: History and Directions ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF110",
+        "name": "Employing Technology in Deaf Education ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF111",
+        "name": "Arabic Language Skills (2) ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF112",
+        "name": "Communication Skills in English Language (1) ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF-113",
+        "name": "Health and Food ",
+        "credits": 2,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF-114",
+        "name": "Hearing Science ",
+        "credits": 2,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF201",
+        "name": "Writing communication skills (1) ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF202",
+        "name": "Arabic Language Skills (3) ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF203",
+        "name": "Communication Skills in English Language (2) ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF204",
+        "name": "Introduction to the Deaf Habilitating ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF-205",
+        "name": "Educational Arts ",
+        "credits": 2,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF210",
+        "name": "Writing communication skills (2) ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF211",
+        "name": "Arabic Language Skills (4) ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF-212",
+        "name": "Developmental Psychology ",
+        "credits": 2,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF213",
+        "name": "National Education ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF214",
+        "name": "Language development and functional Oral language ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF-215",
+        "name": "Introduction to Science of Interpretation ",
+        "credits": 2,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF-301",
+        "name": "Psychological Counseling and Guidance ",
+        "credits": 2,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF302",
+        "name": "Arabic Language Skills (5) ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF303",
+        "name": "Translation of Terms and Texts ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF304",
+        "name": "The Computer and its Applications in the Working Field",
+        "credits": 0,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF305",
+        "name": "Professional and Functional Working Environment ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF306",
+        "name": "Writing Communication Skills: Professional and Functional Appl ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF310",
+        "name": "Arabic Language Skills (6) ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF311",
+        "name": "Instructional strategies ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF312",
+        "name": "Issues and Trends in Deaf Society ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF313",
+        "name": "Mathematics' Applications in the Working Field ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF314",
+        "name": "Labor Laws and Ethics ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF315",
+        "name": "The Community Services ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF401",
+        "name": "Professional and Career Selection for the deaf and Hearing-Imp ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF402",
+        "name": "Arabic Language Skills (7) ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF-403",
+        "name": "Family Empowerment ",
+        "credits": 2,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF404",
+        "name": "Deaf Theater ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF-405",
+        "name": "Project Management ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "DF410",
+        "name": "Internship ",
+        "credits": 12,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "E120",
+        "name": "Introduction to Langauage ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "E121",
+        "name": "Introduction to Literature  ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "E302A",
+        "name": "Language and Creativity (I) ",
+        "credits": 8,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "E302B",
+        "name": "Language and Creativity (II) ",
+        "credits": 8,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "E304A",
+        "name": "Exploring English Grammar (I) ",
+        "credits": 8,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "E304B",
+        "name": "Exploring English Grammar (II) ",
+        "credits": 8,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "EA300A",
+        "name": "Children’s Literature (I) ",
+        "credits": 8,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "EA300B",
+        "name": "Children’s Literature (II) ",
+        "credits": 8,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "ECD110",
+        "name": "Child Education and Management Systems ",
+        "credits": 0,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECD111",
+        "name": "Child Psychology: Growth, Learning and Counseling ",
+        "credits": 0,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECD112",
+        "name": "Child Health, Safety and Nutrition ",
+        "credits": 0,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECD113",
+        "name": "Special Needs Learning and Inclusion ",
+        "credits": 0,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECD114",
+        "name": "Modern Communication and Information Technology for the Child ",
+        "credits": 0,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECD115",
+        "name": "Planning Early Childhood Teaching and Learning Programs ",
+        "credits": 0,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECD117",
+        "name": "Scientific and Mathematical Concepts and Skills of the Child ",
+        "credits": 0,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECD118",
+        "name": "Musical Skills and Child Theater ",
+        "credits": 0,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECD119",
+        "name": "Artistic and Motor Skills for Children ",
+        "credits": 0,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECD120",
+        "name": "Field Training ",
+        "credits": 0,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECD121",
+        "name": "Multiple Intelligences and Development of Creativity (Thinking, Problem Solving, Projects) ",
+        "credits": 0,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECD123",
+        "name": "Arabic and Foreign Language Concepts and Skills ",
+        "credits": 0,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECD126",
+        "name": "Arabic Language in Kindergarten ",
+        "credits": 0,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECD127",
+        "name": "Foreign Language in Kindergarten ",
+        "credits": 0,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECD128",
+        "name": "Psychology of Play ",
+        "credits": 0,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECD129",
+        "name": "Child Culture and Information ",
+        "credits": 0,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECE101",
+        "name": " Child Growth and Care ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECE102",
+        "name": "Parenting and Children’s Rights     ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECE103",
+        "name": "Learning through Art and Play ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECE104",
+        "name": "Childcare, Education, and Guidance ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECE201",
+        "name": "Child Health, Safety and Nutrition ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECE202",
+        "name": "Special Education in Childhood  ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECE203",
+        "name": "Children’s Language Development ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECE204",
+        "name": "Early Intervention in Childhood ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECE205",
+        "name": "Early Intervention in Early Childhood ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECE206",
+        "name": "Language Teaching Methods for Children. ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECE207",
+        "name": "Measurement and Evaluation of Child Growth and Learning. ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECE208",
+        "name": "Early Childhood Curriculum ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECE209",
+        "name": "Early Childhood Institutions management  ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECE301",
+        "name": " science, technology, engineering and mathematics (STEM) in  Early childhood ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECE302",
+        "name": "Educational Technology in Early Childhood ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECE303",
+        "name": "Design and Implementation of Developmentally Appropriate Activities ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECE304",
+        "name": "Methods of Care and Education in Early Childhood ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECE305",
+        "name": "Field Training with Children ",
+        "credits": 6,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECF343",
+        "name": "Pediatric Diseases  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ECO101",
+        "name": "Principles of Microeconomics ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ECO102",
+        "name": "Principles of Macroeconomics ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ECO340",
+        "name": "Managerial Economics ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ECO341",
+        "name": "Economic Development ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ECO342",
+        "name": "Economic Development & Contemporary Issues ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ECON201",
+        "name": "Introduction to Economics (1) ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ECON202",
+        "name": "Introduction to Economics (2) ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "ED111",
+        "name": "Foundations of Education ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED121",
+        "name": "Psychology of Child Growth ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED212",
+        "name": "Elementary Education ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED221",
+        "name": "Psychology of Learning and Instruction ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED222",
+        "name": "Educational Psychology ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED222",
+        "name": "Psychology of Learning and Instruction ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED241",
+        "name": "Curricula & General Instructional Methods ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED247",
+        "name": "Social Sciences for Teachers of Elementary School (1) ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED248",
+        "name": "Social Sciences for Teachers of Elementary School (2) ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED249",
+        "name": "Islamic Education for Teachers of Elementary School (1) ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED250",
+        "name": "Islamic Education for Teachers of Elementary School (2) ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED252",
+        "name": "Methodology of Islamic Education for Elementary School ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED254",
+        "name": "Methodology of Social Sciences ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED255",
+        "name": "English for Elementary School Teachers ",
+        "credits": 4,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED256",
+        "name": "English Language Teaching Methods ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "ED256",
+        "name": "Methods of Teaching English for Elementary School ",
+        "credits": 3,
+        "facultyCode": [
+            "FLS",
+            "FE"
+        ]
+    },
+    {
+        "code": "ED313",
+        "name": "Class management and Teaching environment ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED331",
+        "name": "Instructional Technology ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED332",
+        "name": "Computer –Assisted Instruction ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED347",
+        "name": "Arabic Language  for Teachers  of Elementary School I ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED349",
+        "name": "Arabic Language  for Teachers  of Elementary School II ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED354",
+        "name": "Methodology of Arabic Language  for Elementary School ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED359",
+        "name": "Mathematics for Teachers  of Elementary School I ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED360",
+        "name": "Mathematics for Teachers  of Elementary School II ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED364",
+        "name": "Methodology of Mathematics for Teachers  of Elementary School ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED40F",
+        "name": "Graduation Project  ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED40S",
+        "name": "Graduation Project  ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED41F",
+        "name": "Action Research – Extended Course  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED41S",
+        "name": "Action Research – Extended Course  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED421",
+        "name": "Principles of school counseling and Guidance ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED423",
+        "name": "Measurement, Evaluation and Construction of tests ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED431",
+        "name": "Designing and Production Educational Software ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED441",
+        "name": "Practical Education -1 ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED442",
+        "name": "Scientific research methodology ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED449",
+        "name": "Practical education 2 ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED456",
+        "name": "Children literature ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED460",
+        "name": "Science for elementary school teachers I ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED462",
+        "name": "Science for elementary school teachers II ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED468",
+        "name": "Methodology of science for elementary school ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED482",
+        "name": "Environmental and health science ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED513",
+        "name": "Class management and learning environment ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED513",
+        "name": "Educational Administration ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED521",
+        "name": "Educational Psychology ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED523",
+        "name": "Educational Measurement and Evaluation ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED531",
+        "name": "Curriculum planning and development ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED532",
+        "name": "Educational technology and educational application ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED533",
+        "name": "Curricula and Methodology of Islamic Education ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED534",
+        "name": "Field and Practicum Education ",
+        "credits": 6,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED535",
+        "name": "Curricula and Methodology of English Language ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED536",
+        "name": "Educational Research Methods ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED537",
+        "name": "Curricula and Methodology of Science ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED538",
+        "name": "Curricula and Methodology of Mathematics ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED539",
+        "name": "Curricula and Methodology of Social Sciences ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED540",
+        "name": "Curricula and Methodology of Arabic Language ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED541",
+        "name": "Counseling and educational guidance ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED542",
+        "name": "Educational Psychology and Learning ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED543",
+        "name": "Curricula and General Teaching Strategies ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED544",
+        "name": "Classroom Management ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED545",
+        "name": "Educational Technology ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED546",
+        "name": "Teaching Practicum - 1 ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED547",
+        "name": "Measurement and Evaluation in Education and Psychology ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED548",
+        "name": "Design and Development of Educational Software ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED549",
+        "name": "Ethics in the Teaching Profession ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED550",
+        "name": "Teaching Practicum - 2 ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED601",
+        "name": "Curriculum Analysis and Development ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED613",
+        "name": "Educational leadership  ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED614",
+        "name": "Educational Supervision  ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED617",
+        "name": "Educational Planning  ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED618",
+        "name": "Instructional Design ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED620",
+        "name": "Leadership and  Group Dynamics ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED621",
+        "name": "Educational Policies in the Arab Region ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED622",
+        "name": "Contemporary Issues in Educational Leadership ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED623",
+        "name": "Educational Psychology ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED624",
+        "name": "Institutional Educational Development ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED626",
+        "name": "Economics of Education ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED627",
+        "name": "Educational Communication ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED631",
+        "name": " Open and Distance Learning ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED632",
+        "name": " Research Methodology ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED633",
+        "name": " Technology and Internet Applications in Education ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED634",
+        "name": "Designing and Producing Educational Software ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED635",
+        "name": "Multimedia ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED636",
+        "name": "Internet Applications in Education ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED637",
+        "name": "Advanced Research Methods for Educators ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED639",
+        "name": "Special Topics in Instructional Technology ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED640",
+        "name": "Instructional Technology for Students with Special Needs ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED641",
+        "name": "Computer Applications in Statistical Analysis ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED642",
+        "name": "Planning & management of instructional technology projects ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED643",
+        "name": "Artificial Intelligence Applications in Education ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED644",
+        "name": "knowledge Management  ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED645",
+        "name": "Organizational behaviour in educational institutions  ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED698",
+        "name": "Comprehensive Exam ",
+        "credits": 0,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ED699",
+        "name": "Dissertation ",
+        "credits": 6,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EDF108",
+        "name": "Active Learning Strategies  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EDF109",
+        "name": "The Teaching Profession and the Roles of the Teacher  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EDF213E",
+        "name": "Education for Sustainable Development  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EDF226",
+        "name": "Developmental psychology ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EDF227E",
+        "name": "Educational and Administrative Theories  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EDF228E",
+        "name": "Talent and Creativity Development  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EDF229E",
+        "name": "Introduction to Positive Psychology  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EDF230",
+        "name": "Micro Teaching (1)  ",
+        "credits": 1,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EDF350",
+        "name": "Contemporary Trends in Psychology  ",
+        "credits": 1,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EDF351",
+        "name": "Inclusion of Individuals with Special Needs  ",
+        "credits": 1,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EDF352E",
+        "name": "Alternative Assessment and Its Applications  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EDF353E",
+        "name": "Education and Entrepreneurship  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EDF354E",
+        "name": "E-Learning  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EDS117",
+        "name": "Educational Leadership  ",
+        "credits": 1,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EDS118",
+        "name": "Educational Technology and Digital Transformation  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EDS214E",
+        "name": "Partnership Between Kindergarten and  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EDS238",
+        "name": "Learning Assessment  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EDS239E",
+        "name": "Psychological and Educational Guidance  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EDS240E",
+        "name": "Contemporary Trends in Teaching the Major  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EDS242",
+        "name": "Micro Teaching (2)  ",
+        "credits": 1,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EDS243E",
+        "name": "International Organizations and Education Development  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EDS362",
+        "name": "Comparative and International Education  ",
+        "credits": 1,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EDS363",
+        "name": "School Curriculum  ",
+        "credits": 1,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EDS364E",
+        "name": "Reflection and Guidance in Professional Practices ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EDS365E",
+        "name": "Specialization-Based and Interdisciplinary Education  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EDS366E",
+        "name": "Multiple Intelligences  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "EFL501",
+        "name": "Theories of Foreign Language Learning ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "EFL502",
+        "name": "Research Methods ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "EFL503",
+        "name": "English Language Teaching Methods – Receptive Skills ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "EFL504",
+        "name": "English Language Teaching Methods – Productive Skills  ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "EFL505",
+        "name": "Technology in the Classroom ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "EFL506",
+        "name": "Classroom Management ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "EFL507",
+        "name": "Foreign Language Testing ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "EFL508",
+        "name": "Practicum ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "EFL529",
+        "name": "Proposal Prep. ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "EFL531",
+        "name": "Dissertation ",
+        "credits": 12,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "EJ314",
+        "name": "Press Release and Electronic News Reports ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "EJ401",
+        "name": "Production and Directing Electronic Media  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "EJ402",
+        "name": "Lay Out and Designing Electronic Ads  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "EJ403",
+        "name": "Interviews and Reports of Electronic Press  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "EJ404",
+        "name": "Press Discourse Analysis  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "EJ405",
+        "name": "Investigatory Journalism  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "EJ406",
+        "name": "Electronic News Writing and Editing  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "EJ407",
+        "name": "News Reporter  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "EL097",
+        "name": "English for 21st Century ",
+        "credits": 0,
+        "facultyCode": [
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
+        ]
+    },
+    {
+        "code": "EL098",
+        "name": "English for 21st Century ",
+        "credits": 0,
+        "facultyCode": [
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
+        ]
+    },
+    {
+        "code": "EL099",
+        "name": "Progressive Skills in English",
+        "credits": 0,
+        "facultyCode": [
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
+        ]
+    },
+    {
+        "code": "EL111",
+        "name": "English Communication Skills (L4) ",
+        "credits": 3,
+        "facultyCode": [
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
+        ]
+    },
+    {
+        "code": "EL111",
+        "name": "مهارات الاتصال في اللغة الإنجليزية ( 1 ) ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "EL112",
+        "name": "English Communication Skills (L5)  ",
+        "credits": 3,
+        "facultyCode": [
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
+        ]
+    },
+    {
+        "code": "EL112",
+        "name": "مهارات الاتصال في اللغة الإنجليزية ( 2 ) ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "EL117",
+        "name": "Academic Writing  ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "EL118",
+        "name": "Reading Comprehension  ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "EL119",
+        "name": "Oral & Presentation Skills Course  ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "EL120",
+        "name": "English Phonetics and Linguistics ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "EL121",
+        "name": "Literary Appreciation and Critique",
+        "credits": 0,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "EL121N",
+        "name": "Literary Appreciation and Critique ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "EL122",
+        "name": "Writing Research ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "EL123",
+        "name": "Discourse Analysis ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "EL230",
+        "name": "American Literature ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "EL240",
+        "name": "Modern and Contemporary Drama ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "EL330",
+        "name": "Teaching English as a Foreign Language ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "EL350",
+        "name": "Introduction to Literary Theory   ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "ELM201",
+        "name": "Media Topic in Media  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "ELM202",
+        "name": "Translation ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "ELM203",
+        "name": " Computer for communication   ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "ELM204",
+        "name": "Graphic Design (1) ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "ELM205",
+        "name": "Digital Editing (1) ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "ELM206",
+        "name": "Concept of Graphics (1)   ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "ELM207",
+        "name": " Media Training ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "ELM408",
+        "name": "Public Opinion  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "ELM409",
+        "name": "Electronic Marketing  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "ELM410",
+        "name": "Writing for Electronic Media  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "ELM411",
+        "name": " Electronic Media Economics and Management  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "ENF101",
+        "name": "Listening and Speaking  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENF102",
+        "name": "Reading and Comprehension Strategies  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENF103",
+        "name": "Phonetics (1)  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENF104",
+        "name": "Introduction to Linguistics  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENF105",
+        "name": "Introduction to Drama and Story  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENF106",
+        "name": "Principles of Writing and Written Translation  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENF107E",
+        "name": "Children's Literature: Perspectives ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENF108E",
+        "name": "History of English Literature  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENF217",
+        "name": "Grammar and Language Exercises (2)  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENF218",
+        "name": "Morphology and Syntax  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENF219",
+        "name": "Writing (2) (Argumentative)  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENF220",
+        "name": "Art of Storytelling  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENF221",
+        "name": "Drama  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENF222",
+        "name": "Oral Presentation  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENF223E",
+        "name": "Reading and Writing Essays  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENF224E",
+        "name": "Introduction to Linguistics  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENF333",
+        "name": "Analytical Reading  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENF334",
+        "name": "Translation into English  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENF335",
+        "name": "Modern and Contemporary Poetry  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENF336",
+        "name": "Psycholinguistics and Sociolinguistics ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENF337",
+        "name": "Discourse Analysis  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENF338",
+        "name": "Rhetoric ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENF339E",
+        "name": "Multicultural American",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENF340E",
+        "name": "History of the English Language  ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENGN",
+        "name": "English Language  ",
+        "credits": 0,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENS109",
+        "name": "Introduction to English Poetry  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENS110",
+        "name": "Language Exercises (1 ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENS111",
+        "name": "Writing (1) (Descriptive and Narrative)  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENS112",
+        "name": "Introduction to Literary Criticism  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENS113",
+        "name": "Grammar (1)  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENS114",
+        "name": "Phonetics (2)  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENS115E",
+        "name": "Media and Journalistic Discourse  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENS116E",
+        "name": "Integrated Language Skills  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENS225",
+        "name": "Shakespeare ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENS226",
+        "name": "Translation into Arabic  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENS227",
+        "name": "Critical Reading  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENS228",
+        "name": "Romantic and Victorian Poetry  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENS229",
+        "name": "Contrastive Analysis and Error Analysis  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENS230",
+        "name": "19th Century Novel  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENS231E",
+        "name": "Rhetoric and Composition  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENS232E",
+        "name": "Western Civilization  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENS341",
+        "name": "Advanced Writing  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENS342",
+        "name": "Comparative Literature  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENS343",
+        "name": "20th Century Drama  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENS344",
+        "name": "Semantics and Pragmatics  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENS345",
+        "name": "Modern Criticism  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENS346",
+        "name": "Modern and Contemporary Novel  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENS347E",
+        "name": "Advanced Grammar  ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "ENS348E",
+        "name": "Applied Linguistics  ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "FIN240",
+        "name": "Microfinance theory and Practice ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "FIN241",
+        "name": "Microfinance ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "FIN242",
+        "name": "Financial Technology ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "FIN301(BachelorofAccounting(Arabic))",
+        "name": "Principles of Finance (1) ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "FIN301-F",
+        "name": "Financial and Securities Markets ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "FIN302(BachelorofAccounting(Arabic))",
+        "name": "Principles of Finance (2) ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "FIN302-F",
+        "name": "Portfolio Theory  ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "FIN310",
+        "name": "Investment Management ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "FIN340-F",
+        "name": "Corporate Finance ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "FIN341",
+        "name": "Islamic Finance  ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "FIN342",
+        "name": "Financial & Securities Markets ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "FIN401",
+        "name": "Financial institutions ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "FR101",
+        "name": "French for Beginners (I)  ",
+        "credits": 3,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "FR102",
+        "name": "French for Beginners (II)  ",
+        "credits": 3,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "FTF32",
+        "name": "Field Training (2)  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "FTF44",
+        "name": "Field Training (4)  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "FTS11",
+        "name": "Field Training (1)  ",
+        "credits": 1,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "FTS33",
+        "name": "Field Training (3)  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "FTS45",
+        "name": "Field Training (5)  ",
+        "credits": 2,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "GB102",
+        "name": "Principles of entrepreneurship for non-specialists ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "GB102E",
+        "name": "Entrepreneurship for Non- Specialist ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "GD111",
+        "name": "Introduction to Visual Perception ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "GD124",
+        "name": "Digital Photography I ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "GD126",
+        "name": "Introduction to Multimedia Design ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "GD211",
+        "name": "Digital Photography 2 ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "GD212",
+        "name": "Critical and Contextual Issues in Art and Design ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "GR100",
+        "name": "مهارات استخدام الحاسوب والإنترنت ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "GR101",
+        "name": "Self-Learning Skills  ",
+        "credits": 3,
+        "facultyCode": [
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
+        ]
+    },
+    {
+        "code": "GR101",
+        "name": "مهارات التعلم الذاتي ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "GR101EL",
+        "name": "Self-Learning Skills ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "GR111",
+        "name": "Arabic Islamic Civilization  ",
+        "credits": 3,
+        "facultyCode": [
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
+        ]
+    },
+    {
+        "code": "GR112",
+        "name": "Issues and Problems of Development in the Arab Region  ",
+        "credits": 3,
+        "facultyCode": [
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
+        ]
+    },
+    {
+        "code": "GR115",
+        "name": "Current International Affairs  ",
+        "credits": 3,
+        "facultyCode": [
+            "FLS",
+            "FE"
+        ]
+    },
+    {
+        "code": "GR118",
+        "name": "Life skills and Coexistence ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "GR118E",
+        "name": "Life Skills and Coexistence ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "GR120",
+        "name": "ريادة الأعمال: إبداع وابتكار ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "GR121",
+        "name": "Environment and Health ",
+        "credits": 0,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "GR131",
+        "name": "History and Civilization of (your AOU branch country) ",
+        "credits": 3,
+        "facultyCode": [
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
+        ]
+    },
+    {
+        "code": "GR131E",
+        "name": "Egyptian Society: History, Civilization, and Future ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "GR131EL",
+        "name": "History and Civilization of the Kingdom of Bahrain (for non-Arabic Speakers) ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "GR77",
+        "name": "Skills for Success ",
+        "credits": 1,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "GR99",
+        "name": "Learning with Technology ",
+        "credits": 1,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "GT101",
+        "name": "Learning and Information Technology ",
+        "credits": 3,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "HRM205",
+        "name": "Employment Law ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "HRM206",
+        "name": "Staffing Organizations ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "HRM210",
+        "name": "Training and development  ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "HRM215",
+        "name": "Employment Compensation and Benefits ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "HRM320",
+        "name": "Work Place Health & Safety ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "HRM330",
+        "name": "Strategic Human Resource Management  ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "IMC201",
+        "name": "Media Topics in English ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC202",
+        "name": "Creativity Strategies in Advertising ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC203",
+        "name": "Media Material Production ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC204",
+        "name": "Graphic Design ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC205",
+        "name": "Marketing Communication ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC206",
+        "name": "PR  & Advertising Research ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC207",
+        "name": "Personal Communication ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC301",
+        "name": "Organizational Communication ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC302",
+        "name": "Advertising and Customer Behavior  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC303",
+        "name": "International Public Relations ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC304",
+        "name": "Promotion Activities ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC305",
+        "name": "Social Marketing ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC306",
+        "name": "Public Opinion ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC307",
+        "name": "Crisis Management ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC308",
+        "name": "Digital Marketing ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC309",
+        "name": "Public Relation Management ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC310",
+        "name": "Electronic Public Relation ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC311",
+        "name": "Writing for PR ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC312",
+        "name": "Advertising Managememt ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC313",
+        "name": "Electronic Adivertising ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC314",
+        "name": "Writing for Advertising ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC403",
+        "name": "TV Shooting for Commercial Advertising ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC404",
+        "name": "Translation ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC405",
+        "name": "Electronic Montage ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC406",
+        "name": "Etiquette and  Protocol ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC407",
+        "name": "Political Advertising ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC408",
+        "name": "Persuasion ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC409",
+        "name": "Media and Social Change ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC410",
+        "name": "PR Campaigns Management and Planning ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC411",
+        "name": "PR and Social Responsibility Programs ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC412",
+        "name": "PR Graduation Project ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC413",
+        "name": "Advertising Production ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC414",
+        "name": "Adv Campaigns Management and Planning ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IMC415",
+        "name": "Adv Graduation Project ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IVJ101",
+        "name": "Investigative Journalism and Community Issues. ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IVJ102",
+        "name": "Arab and International Experiences in Investigative Journalism.",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IVJ103",
+        "name": "Methodology of Investigative Reporting.",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IVJ104",
+        "name": "Tools and Mechanisms for Verifying Information.",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IVJ105",
+        "name": "Ethics of Practice in Investigative Journalism.",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IVJ201",
+        "name": "Data Journalism ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IVJ202",
+        "name": "Digital Writing and Storytelling Techniques.",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IVJ203",
+        "name": "Television Investigative Reporting ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IVJ204",
+        "name": "Occupational and Physical Safety for Journalists.",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "IVJ205",
+        "name": "Capstone Project ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "JP101",
+        "name": "Introduction to Information and Communication Sciences  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP102",
+        "name": "Introduction to Journalism Editing  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP103",
+        "name": "Information and Electronic Communication Language  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP104",
+        "name": "Media and Society  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP105",
+        "name": "Introduction to Sociology  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP106",
+        "name": "Political Geography  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP201",
+        "name": "The Art of Writing and Expression  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP202",
+        "name": "Media Ethics and Electronic Legislation  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP203",
+        "name": "Arab Media  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP204",
+        "name": "Public Opinion  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP205",
+        "name": "International Communication  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP206",
+        "name": "International Public Relations  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP207",
+        "name": "Globalization and Media  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP208",
+        "name": "Ecological Media  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP209",
+        "name": "Human Rights  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP210",
+        "name": "Media Course in English  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP211",
+        "name": "Preparing and Designing Websites  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP212",
+        "name": "Media Translation  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP213",
+        "name": "Digital Photography  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP301",
+        "name": "Media Research Methods  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP302",
+        "name": "Modern Information Theories  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP303",
+        "name": "Media Psychology  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP304",
+        "name": "Case Study of Public Relations  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP305",
+        "name": "Grammar for Journalists  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP306",
+        "name": "Electronic Public Relations  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP307",
+        "name": "Marketing and the consumer’s behaviour  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP308",
+        "name": "Graphic Design  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP309",
+        "name": "Management of Media Institutions  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP310",
+        "name": "Multimedia Design  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP311",
+        "name": "Information and Communication Technology  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP312",
+        "name": "Digital Montag  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP313",
+        "name": "Use of Computers in the Media  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP402",
+        "name": "The Art of Conversation and Negotiation  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP409",
+        "name": "Graduation Project  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "JP410",
+        "name": "Practical Training  ",
+        "credits": 6,
+        "facultyCode": [
+            "FMJ"
+        ]
+    },
+    {
+        "code": "L201A",
+        "name": "English in the World I ",
+        "credits": 8,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "L201B",
+        "name": "English in the World II ",
+        "credits": 8,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "LAW101",
+        "name": "المدخل للقانون ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW102",
+        "name": "نظرية الدولة ونظم الحكم ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW103",
+        "name": "القانون الدولي العام ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW104",
+        "name": "قانون الأحوال الشخصية (1) ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW105",
+        "name": "حقوق الإنسان ",
+        "credits": 2,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW106",
+        "name": "تاريخ التشريع الإسلامي",
+        "credits": 0,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW107",
+        "name": "Human Rights ",
+        "credits": 2,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "LAW107",
+        "name": "مبادئ علم الاقتصاد ",
+        "credits": 2,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW107EL",
+        "name": "Human Rights (for non-Arabic Speakers) ",
+        "credits": 2,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "LAW108",
+        "name": "علم الإجرام والعقاب ",
+        "credits": 2,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW109",
+        "name": "تاريخ القانون وفلسفته ",
+        "credits": 2,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW201",
+        "name": "مصادر الالتزام ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW202",
+        "name": "النظام الأساسي لسلطنة عمان ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW203",
+        "name": "مبادئ القانون التجاري ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW204",
+        "name": "المنظمات الدولية ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW205",
+        "name": "القانون الإداري 1 ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW206",
+        "name": "أحكام الالتزام ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW207",
+        "name": "قانون الجزاء (القسم العام) ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW208",
+        "name": "القانون الإداري 2 ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW209",
+        "name": "الشركات التجارية والإفلاس ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW210",
+        "name": "التشريع الجنائي الإسلامي ",
+        "credits": 2,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW211",
+        "name": "المعاملات الحديثة في الفقه الإسلامي ",
+        "credits": 2,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW212",
+        "name": "قانون حماية البيئة ",
+        "credits": 2,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW213",
+        "name": "الإدارة العامة ",
+        "credits": 2,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW214",
+        "name": "القضاء الدستوري ",
+        "credits": 2,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW215",
+        "name": "مناهج البحث القانوني ",
+        "credits": 2,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW301",
+        "name": "Business Law ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "LAW301",
+        "name": "قانون الإثبات ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW302",
+        "name": "قانون العمل ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW303",
+        "name": "قانون الجزاء (القسم الخاص) ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW304",
+        "name": "القانون الدولي للبحار ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW305",
+        "name": "العقود المسماة (البيع والإيجار) ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW306",
+        "name": "قانون الإجراءات الجزائية (1) ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW307",
+        "name": "قانون الإجراءات المدنية والتجارية ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW308",
+        "name": "القضاء الإداري ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW309",
+        "name": "جرائم الوظيفة العامة ",
+        "credits": 2,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW310",
+        "name": "جرائم أمن الدولة ",
+        "credits": 2,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW311",
+        "name": "القوانين الجزائية الخاصة ",
+        "credits": 2,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW312",
+        "name": "عقد الكفالة ",
+        "credits": 2,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW313",
+        "name": "عقد المقاولة والوكالة ",
+        "credits": 2,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW314",
+        "name": "قانوني التأمين والضمان الاجتماعي ",
+        "credits": 2,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW315",
+        "name": "قانون الاستثمار ",
+        "credits": 2,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW316",
+        "name": "قانون التحكيم ",
+        "credits": 2,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW317",
+        "name": "حقوق الملكية الفكرية ",
+        "credits": 2,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW318",
+        "name": "قانون المعاملات الإلكترونية ",
+        "credits": 2,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW401",
+        "name": "قانون الإجراءات الجزائية (2) ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW402",
+        "name": "التنفيذ الجبري ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW403",
+        "name": "المالية العامة والنظم الضريبية ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW404",
+        "name": "قانون الأحوال الشخصية (2) ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW405",
+        "name": "أصول الفقه ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW406",
+        "name": "القانون الدولي الخاص ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW407",
+        "name": "الأوراق التجارية والأعمال المصرفية ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW408",
+        "name": "الحقوق العينية ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW410",
+        "name": "القانون البحري ",
+        "credits": 2,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW411",
+        "name": "القانون الجوي ",
+        "credits": 2,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW412",
+        "name": "قانون حماية المستهلك ",
+        "credits": 2,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW413",
+        "name": "أخلاقيات المهن القانونية ",
+        "credits": 2,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LAW414",
+        "name": "مصطلحات قانونية باللغة الإنجليزية ",
+        "credits": 2,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "LB170",
+        "name": "Professional Communication Skills for Business Studies ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "M109",
+        "name": " .NET Programming ",
+        "credits": 3,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "M110",
+        "name": "Python Programming ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "M115",
+        "name": "Python for ML and DS ",
+        "credits": 3,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "M140",
+        "name": "Python Programming ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "M218",
+        "name": "Relational Databases ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "M238",
+        "name": "Data Visualization ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "M251",
+        "name": "Object Oriented Programming using Java ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "M252",
+        "name": "Internet Programming ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "M269",
+        "name": "Algorithms, Data structures and Computability. ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "M277",
+        "name": "Introduction to Competitive Programming ",
+        "credits": 3,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "M348",
+        "name": "Applied statistical modelling ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "M811-A",
+        "name": " Information Security A ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "M811-B",
+        "name": " Information Security- Part B ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "M812-A",
+        "name": " Digital Forensics A ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "M812-B",
+        "name": " Digital Forensics B ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "M813-A",
+        "name": "Software Development- Part A ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "M813-B",
+        "name": "Software Development-Part B ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "M814-A",
+        "name": "Software Engineering – Part A ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "M814-B",
+        "name": " Software Engineering – B ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "M815-A",
+        "name": " Project Management-A ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "M815-B",
+        "name": "Project Management-B ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "M816-A",
+        "name": " Data Management-A ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "M816-B",
+        "name": "Data Management-B ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "M888",
+        "name": "Databases in Enterprise systems ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "M890",
+        "name": "Artificial Intelligence Algorithms ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "MATH201",
+        "name": "Mathematics for Managerial and Economic Sciences ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "MC101",
+        "name": "Mass Media Skills  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "Mcom101",
+        "name": "Quantitative Research and Its Statistical Applications ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "Mcom102",
+        "name": "Qualitative Research in Media and Its Applications ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "Mcom103",
+        "name": "The Arab Media Environment ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "Mcom104",
+        "name": "Media and Contemporary Arab Issues ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "Mcom105",
+        "name": "Digital Media in the Arab World ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "Mcom106",
+        "name": "Economics of Arab Media ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "Mcom107",
+        "name": "Media Regulations in the Arab World. ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "Mcom108",
+        "name": "Applications of Artificial Intelligence in Media ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "Mcom109",
+        "name": "Media and Advertising Content Production in the Arab World. ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "Mcom110",
+        "name": "Digital Marketing Studies and Their Applications in the Arab World. ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "Mcom111",
+        "name": "Arab Issues in International Media ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "Mcom112",
+        "name": "Specialized Readings in Arab Media.",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "Mcom113",
+        "name": "Academic Thesis ",
+        "credits": 9,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN101",
+        "name": "Arabic Mass Media  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN-101",
+        "name": "Introduction to Radio and Television ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN102",
+        "name": "Introduction To Broadcasting  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN-102",
+        "name": "Introduction to Public Realtions and Advertsising ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN103",
+        "name": "Introduction to public Relations  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN-103",
+        "name": "Introduction to News Journalism ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN104",
+        "name": "Introduction to Advertising  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN-104",
+        "name": "Media Law and Ethics ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN105",
+        "name": "Computers for communication  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN-105",
+        "name": "Communication Theroies ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN106",
+        "name": "Research Methods  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN-106",
+        "name": "Research Methods ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN107",
+        "name": "Communication Theories  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN-107",
+        "name": "Arabic Mass Media ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN108",
+        "name": "Media Psychology  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN-108",
+        "name": "Introduction to Psychology ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN109",
+        "name": "Media Sociology  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN-109",
+        "name": "Introductionto Social Media ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN110",
+        "name": "Introduction to Politics  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN-110",
+        "name": "Introduction to Politics and International Relations ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN111",
+        "name": "Introduction to Economics  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN-111",
+        "name": "Introduction to Economics ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN112",
+        "name": "Human Rights  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN-112",
+        "name": "Human Rights ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN113",
+        "name": "Political Geography  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN-113",
+        "name": "Critical Thinking ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN114",
+        "name": "Critical Thinking  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN-114",
+        "name": "Introduction to Cinema ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN115",
+        "name": "Media Laws and Ethics  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN-115",
+        "name": "Computer for Communication ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN116",
+        "name": "Introduction to Journalism  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN-116",
+        "name": "Art of Music ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN117",
+        "name": "Introduction to the Cinema  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN-117",
+        "name": "History of Science and Knowledge ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGN-118",
+        "name": "Introduction to Fine Arts ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MGT111",
+        "name": "Principles of Management I ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "MGT112",
+        "name": "Principles of Management II ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "MGT201",
+        "name": "Principles of Management (1) ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "MGT202",
+        "name": "Principles of Management ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "MGT301",
+        "name": "Operation Research (1) ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "MIS111",
+        "name": "Introduction to Management Information System I ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "MIS112",
+        "name": " Introduction to Management Information System II ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "MIS200-IS",
+        "name": "Relational database Management Systems ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "MIS201(BachelorofAccounting(Arabic))",
+        "name": "Principles of Management Information System ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "MIS201-IS",
+        "name": "Programming for Business Studies ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "MIS300",
+        "name": "Project Management  ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "MIS331",
+        "name": "Business Intelligence ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "MIS332",
+        "name": "System analysis and design ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "MKT111",
+        "name": "Principles of Marketing I ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "MKT112",
+        "name": "Principles of Marketing II ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "MKT201",
+        "name": "Principles of Marketing ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "MKT331",
+        "name": "Digital Marketing ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "MKT332",
+        "name": "Service Marketing ",
+        "credits": 4,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "MRT201",
+        "name": "Media Topics in English ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT202",
+        "name": "Television Shooting and Lighting ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT203",
+        "name": "Phonetics & Announcement ",
+        "credits": 0,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT204",
+        "name": "Public Opinion ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT205",
+        "name": "Introduction to Electronic Montage ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT206",
+        "name": "Broadcasting Organization Management ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT207",
+        "name": "Documentary Cinema ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT301",
+        "name": "Preparation and Program Announcement ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT302",
+        "name": "Specialiazed Broadcasting ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT303",
+        "name": "Graphic Design ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT304",
+        "name": "Writing for Radio and TV ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT305",
+        "name": "Radio and TV Directing ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT306",
+        "name": "News and News Program ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT307",
+        "name": "Media Documentation ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT308",
+        "name": "Media Criticism ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT309",
+        "name": "Electronic Montage Advanced for TV ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT310",
+        "name": "TV Workshop Training ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT311",
+        "name": "Viewers Research ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT312",
+        "name": "Electronic Montage  Advanced for Radio ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT313",
+        "name": "Radio Workshop Training ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT314",
+        "name": "Audience Research ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT401",
+        "name": "Internatinal Broadcasting ",
+        "credits": 0,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT402",
+        "name": "Advertising in Radio and TV ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT403",
+        "name": "virtual Studio ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT404",
+        "name": "Translation ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT405",
+        "name": "Art Directing ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT406",
+        "name": "New Media ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT407",
+        "name": "Drama in Radio and TV ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT408",
+        "name": "Preparation and Program Announcement Advanced for TV ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT409",
+        "name": "TV Directing Advanced ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT410",
+        "name": "TV Graduation Project ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT411",
+        "name": "Preparation and Program Announcement Advanced for Radio ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT412",
+        "name": "Radio Directing Advanced ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MRT413",
+        "name": "Radio Graduation Project ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "MS102",
+        "name": "Physics ",
+        "credits": 3,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "MST129",
+        "name": "Applied Calculus  ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "MST224",
+        "name": "Mathematical methods ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "MT110",
+        "name": "Software Print Design ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "MT120",
+        "name": "Software screen design ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "MT129",
+        "name": "Calculus and Probability ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "MT131",
+        "name": "Discrete Mathematics ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "MT132",
+        "name": "Linear Algebra ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "MT141",
+        "name": "Introduction to Probability and Statistics ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "MT248",
+        "name": "Analysing data ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "MT249",
+        "name": "Practical modern statistics ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "MT372",
+        "name": "Parallel Computing ",
+        "credits": 3,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "MT380",
+        "name": "Service oriented architecture ",
+        "credits": 3,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "MT390",
+        "name": " Image Processing ",
+        "credits": 3,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "MT395",
+        "name": "Applied Cyber Security ",
+        "credits": 3,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "NJOUR201",
+        "name": "MediaTopics in English ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR202",
+        "name": "Digital communication ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR203",
+        "name": "News Editing ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR204",
+        "name": "News Interviews ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR205",
+        "name": "News reporter ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR206",
+        "name": "Citizen Journalism ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR301",
+        "name": "News Production for Radio and Television ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR302",
+        "name": "News Production for Printed Newspapers ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR303",
+        "name": "Digital News Production ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR304",
+        "name": "Public opinion ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR305",
+        "name": "Graphic design ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR306",
+        "name": "Solutions Journalism ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR307",
+        "name": "Sports Journalism ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR308",
+        "name": "Training in Television Journalism ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR309",
+        "name": "Websites Directing ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR310",
+        "name": "News Documentaries ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR311",
+        "name": "Training Workshops in Digital News ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR312",
+        "name": "Editing for News Websites ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR313",
+        "name": "Mobile Journalism ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR401",
+        "name": "Investigative Journalism ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR402",
+        "name": "News Websites Design ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR403",
+        "name": "International News Media ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR404",
+        "name": "News Translation ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR405",
+        "name": "Electronic Montage ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR406",
+        "name": "Infographics ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR407",
+        "name": "Money & Business News Coverage ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR408",
+        "name": "Comparative News Studies ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR409",
+        "name": "Incident Journalism ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR410",
+        "name": "Television News Announcement ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR411",
+        "name": "Directing news Programs in Radio and television ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR412",
+        "name": "Gaduation Project ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR413",
+        "name": "online Radio and Television ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR414",
+        "name": "websites content production ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "NJOUR415",
+        "name": "Gaduation Project ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PR304",
+        "name": "Persuasion ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PR314",
+        "name": "Writing and Presentation for Public Relations  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PR401",
+        "name": "Public Relations Programme Planning  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PR402",
+        "name": "Corporate Public Relations ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PR403",
+        "name": "Organizational Communication ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PR404",
+        "name": "Conference and Symposium Management ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PR405",
+        "name": "Public Relations and Crisis Management ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PR406",
+        "name": "Electronic Public Relations Campaigns ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PR407",
+        "name": "Etiquette and Protocol  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PRA201",
+        "name": "English Topic in Media ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PRA202",
+        "name": "Translation  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PRA204",
+        "name": "Public Relation Management  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PRA205",
+        "name": "Advertising Management  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PRA206",
+        "name": "Media Material Production (1)  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PRA207",
+        "name": "Media Training  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PRA301",
+        "name": "Social Marketing  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PRA302",
+        "name": "Promotion Activities   ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PRA303",
+        "name": "PR & Advertising Researches  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PRA305",
+        "name": "Graphic Design  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PRA306",
+        "name": "Advertising Production   ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PRA307",
+        "name": "Media Training  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PRA310",
+        "name": "Special Topics in PR ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PRA311",
+        "name": "Crisis Management    ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PRA312",
+        "name": "Personal Communication  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PRA401",
+        "name": "Organizational Communication  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PRA402",
+        "name": "Management of Advertising Campaigns  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PRA403",
+        "name": "Applied PR  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PRA404",
+        "name": "Graphic Design (advanced)  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PRA405",
+        "name": "Etiquette &  Protocol   ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PRA406",
+        "name": "Production of PR Material (2)  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PRA407",
+        "name": "Graduation Project  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PRA408",
+        "name": "Public Opinion  ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PRA409",
+        "name": "Negotiations Skills   ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "PRA410",
+        "name": "PR and Social Change ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "RTV201",
+        "name": "Media Topic in English ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "RTV202",
+        "name": "Translation ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "RTV203",
+        "name": "Writing for Radio and Television ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "RTV204",
+        "name": "Phonetics & Announcement ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "RTV205",
+        "name": "Radio & Television Production ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "RTV206",
+        "name": "Specialized Broadcasting ",
+        "credits": 3,
+        "facultyCode": [
+            "FMC"
+        ]
+    },
+    {
+        "code": "SL101",
+        "name": "Spanish for Beginners (I)  ",
+        "credits": 3,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "SL102",
+        "name": "Spanish for Beginners (II)  ",
+        "credits": 3,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "SP100",
+        "name": "Introduction to Special Education ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "SP202",
+        "name": "Early Intervention in Special Education ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "SP205",
+        "name": "Assessment and diagnoses of learning disabilities ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "SP230",
+        "name": "Language and Communication Disorders ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "SP233",
+        "name": "Building and behavior modification ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "SP241",
+        "name": "Curricula and methods in Special Education ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "SP302",
+        "name": "Learning Disabilities ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "SP325",
+        "name": "Learning through playing ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "SP334",
+        "name": "Teaching Methods in Learning Disabilities  ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "SP336",
+        "name": "Developmental Learning disabilities ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "SP337",
+        "name": "Learning disabilities and academic educational programs ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "SP340",
+        "name": "Working with families of individuals with special needs ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "SP343",
+        "name": "Practicum (1) in the field of learning disabilities ",
+        "credits": 6,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "SP405",
+        "name": "Contemporary Issues in Special Education ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "SP415",
+        "name": "Integrating students with special needs in regular schools ",
+        "credits": 3,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "SP499",
+        "name": "Practicum (2) in the field of learning disabilities ",
+        "credits": 6,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "STAT201",
+        "name": "Statistics for Managerial and Economic Sciences ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "SYS210",
+        "name": "Managing Technology and Innovation ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "SYS280",
+        "name": "Principles and Practice of Systems’ Thinking  ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "SYS380",
+        "name": "Managing Systems Complexity ",
+        "credits": 8,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "T215A",
+        "name": "Communication and Information Technologies A ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "T215B",
+        "name": "Communication and Information Technologies B ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "T216A",
+        "name": " Cisco networking (CCNA)-A ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "T216B",
+        "name": " Cisco networking (CCNA)-B ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "T227",
+        "name": " Change, strategy and projects at work ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "T316",
+        "name": " Advanced Networking ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "T318",
+        "name": "Applied Network Security ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "T321",
+        "name": "Operating System Server Administration ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "T802",
+        "name": " Research Project (16) Credit Hours",
+        "credits": 0,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "T828-A",
+        "name": " Network Security-A ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "T828-B",
+        "name": "Network Security-B ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TDF115",
+        "name": "Computer Components Maintenance (1) ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "TDF216",
+        "name": "Advanced Computer Maintenance (2) ",
+        "credits": 3,
+        "facultyCode": [
+            "FBS"
+        ]
+    },
+    {
+        "code": "TECN",
+        "name": "Information and Communication Technologies in Education and Research  ",
+        "credits": 0,
+        "facultyCode": [
+            "FE"
+        ]
+    },
+    {
+        "code": "TM103",
+        "name": "Computer Organization and Architecture ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM105",
+        "name": "Introduction to Programming ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM111",
+        "name": "Introduction to Computing and Information Technology 1 ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM112",
+        "name": "Introduction to Computing and Information Technology 2 ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM129",
+        "name": "Technologies in Practice ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM240",
+        "name": " Computer Graphics and Multimedia ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM254",
+        "name": "Managing IT: the why, the what and the how ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM255",
+        "name": "Communication and Information Technologies ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM256",
+        "name": "Cyber Security  ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM260",
+        "name": "Security, ethics and privacy in IT and Computing ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM270",
+        "name": "Artificial intelligence ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM271",
+        "name": "Machine Learning and Deep learning ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM275",
+        "name": "Parallel and Distributed Systems ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM276",
+        "name": "Software Development Processes and Methodologies ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM280",
+        "name": "Smart IoT Systems ",
+        "credits": 3,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM287",
+        "name": "Web Applications Development ",
+        "credits": 3,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM290",
+        "name": "Cryptography and Internet Security ",
+        "credits": 3,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM291",
+        "name": " Management Information System ",
+        "credits": 3,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM295",
+        "name": "System Modelling ",
+        "credits": 3,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM297",
+        "name": "Compression Methods for Multimedia ",
+        "credits": 3,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM298",
+        "name": " Operating Systems ",
+        "credits": 4,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM311",
+        "name": "Information security ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM338",
+        "name": "Data Mining ",
+        "credits": 3,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM339",
+        "name": "Big Data Analytics    ",
+        "credits": 3,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM340",
+        "name": "Natural Language Processing ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM341",
+        "name": "Computer Vision ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM351",
+        "name": "Data management and analysis ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM352",
+        "name": "Web, mobile and cloud technologies ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM354",
+        "name": "Software Engineering ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM355",
+        "name": "Communications Technology ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM356",
+        "name": " Interaction design and user experience ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM358",
+        "name": "Machine learning and artificial intelligence ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM359",
+        "name": "System penetration testing ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM366",
+        "name": "Artificial intelligence ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM391",
+        "name": "E-Commerce ",
+        "credits": 3,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TM471",
+        "name": " The Telematics project ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TR102",
+        "name": "Introduction to Translation  ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "TR103",
+        "name": "Contrastive Analysis for Translation Purposes ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "TR301N",
+        "name": "Creative Writing in Arabic ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "TR302",
+        "name": "Computer-Assisted Translation ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "TR303",
+        "name": "Translation of Business Texts ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "TR304",
+        "name": "Translation of  Official and Legal Texts ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "TR305",
+        "name": "Translation of Media Texts ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "TR306",
+        "name": "Consecutive and Simultaneous Interpreting ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "TR307",
+        "name": " Political and Diplomatic Translation ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "TR308",
+        "name": "Special Topics in Translation ",
+        "credits": 4,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "TT284",
+        "name": "Web technologies ",
+        "credits": 8,
+        "facultyCode": [
+            "FCS"
+        ]
+    },
+    {
+        "code": "TU170",
+        "name": "Computing Essentials  ",
+        "credits": 3,
+        "facultyCode": [
+            "FLS",
+            "FE",
+            "FBS",
+            "FCS",
+            "FLA",
+            "FMJ",
+            "FMC"
+        ]
+    },
+    {
+        "code": "TU170",
+        "name": "التعلم عبر الانترنت ",
+        "credits": 3,
+        "facultyCode": [
+            "FLA"
+        ]
+    },
+    {
+        "code": "U214A",
+        "name": "Worlds of English (I) ",
+        "credits": 8,
+        "facultyCode": [
+            "FLS"
+        ]
+    },
+    {
+        "code": "U214B",
+        "name": "Worlds of English (I) ",
+        "credits": 8,
+        "facultyCode": [
+            "FLS"
+        ]
+    }
+]

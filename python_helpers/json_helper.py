@@ -28,7 +28,9 @@ def initialize_firebase():
     return firestore.client()
 
 def upload_json_to_firestore(json_file_path, collection_name):
-    """Uploads a JSON file to a specified Firestore collection."""
+    """Uploads a JSON file to a specified Firestore collection.
+    If the JSON is a list of dicts with a 'code' key, that key is used as the document ID.
+    """
     db = initialize_firebase()
     if not db:
         return
@@ -43,13 +45,23 @@ def upload_json_to_firestore(json_file_path, collection_name):
         return
 
     try:
-        for doc_id, doc_data in data.items():
-            db.collection(collection_name).document(doc_id).set(doc_data)
+        if isinstance(data, list):
+            for item in data:
+                if not isinstance(item, dict) or "code" not in item:
+                    logging.warning("⚠️ Skipped invalid item without 'code': %s", item)
+                    continue
+                doc_id = item["code"]
+                db.collection(collection_name).document(doc_id).set(item)
+        elif isinstance(data, dict):
+            for doc_id, doc_data in data.items():
+                db.collection(collection_name).document(doc_id).set(doc_data)
+        else:
+            logging.error("❌ JSON structure not supported. Must be a list of dicts or a dict.")
+            return
 
         logging.info(f"✅ Data from {json_file_path} uploaded successfully to '{collection_name}'!")
     except Exception as e:
         logging.error(f"❌ Failed to upload data to Firestore: {e}")
-
 
 # Initialize Firebase (Make sure you've set your service account path in an environment variable)
 def initialize_firestore():
@@ -136,4 +148,4 @@ def clean_firestore_keywords(collection_name, keywords_to_remove):
 
 # ------------------------------------------------------------------------- End Functions ------------------------------------------------------------------------------------#
 #upload_json_to_firestore('D:\\VisualStudioCodeProjects\\aou-gpa-calculator\\python_helpers\\programs.json', 'programs')
-#upload_json_to_firestore('D:\\VisualStudioCodeProjects\\aou-gpa-calculator\\python_helpers\\faculties.json', 'faculties')
+#upload_json_to_firestore('D:\\VisualStudioCodeProjects\\aou-gpa-calculator\\python_helpers\\courses.json', 'courses')
