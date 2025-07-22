@@ -35,6 +35,9 @@ export function GPACalculator() {
   const [totalCredits, setTotalCredits] = useState(0); // State to store the total credits earned across all semesters
   const [completedCourses, setCompletedCourses] = useState(0); // State to store the number of courses completed
 
+  // Add a state to track if initial load is complete and data is hydrated
+  const [isInitialLoadComplete, setIsInitialLoadComplete] = useState(false);
+
   const { toast } = useToast(); // Hook to access the toast notification system
   const queryClient = useQueryClient(); // Hook to interact with the React Query cache
 
@@ -168,27 +171,73 @@ export function GPACalculator() {
   }, [userRecord]);
 
   /**
+   * useEffect hook to load saved user data into the component's state
+   * once the `userRecord` is fetched.
+   */
+  useEffect(() => {
+    if (userRecord) {
+      setSelectedFaculty(userRecord.facultyCode || "");
+      setSelectedProgram(userRecord.programCode || "");
+      setSemesters(userRecord.semesters || []);
+      setIsInitialLoadComplete(true); // Mark initial load as complete
+    } else if (userRecord === undefined && !isInitialLoadComplete) {
+      // If userRecord is explicitly undefined (e.g., 404) and it's the very first load attempt,
+      // we can consider the initial load complete and ready to potentially save a new record.
+      // This handles the case where no record exists initially.
+      setIsInitialLoadComplete(true);
+    }
+  }, [userRecord]);
+
+
+  /**
    * useEffect hook to save or update user data whenever relevant state changes.
    * It checks if a user record already exists to decide between saving or updating.
    * It also prevents unnecessary API calls while mutations are pending.
    */
-  // Save data when it changes
   useEffect(() => {
-    if (selectedFaculty && selectedProgram && (userRecord !== undefined || (userRecord === undefined && !saveUserRecord.isPending && !updateUserRecord.isPending))) {
-      const userData = {
-        sessionId,
-        facultyCode: selectedFaculty,
-        programCode: selectedProgram,
-        semesters,
-      };
-
-      if (userRecord) {
-        updateUserRecord.mutate(userData);
-      } else {
-        saveUserRecord.mutate(userData);
-      }
+    // Only attempt to save/update once the initial userRecord has been processed and we have a faculty/program selected.
+    if (!isInitialLoadComplete || !selectedFaculty || !selectedProgram) {
+      return;
     }
-  }, [selectedFaculty, selectedProgram, semesters, userRecord, saveUserRecord.isPending, updateUserRecord.isPending]);
+
+    const currentData = {
+      sessionId,
+      facultyCode: selectedFaculty,
+      programCode: selectedProgram,
+      semesters,
+    };
+
+    // Prevent immediate re-trigger if mutations are pending or if data hasn't truly changed
+    if (saveUserRecord.isPending || updateUserRecord.isPending) {
+      return;
+    }
+
+    // OPTIMIZATION: Check if the data has actually changed before mutating
+    // This is crucial to prevent unnecessary Firestore writes.
+    // Perform a deep comparison if `semesters` can be large or complex.
+    // For basic types and simple arrays, a shallow comparison might be enough,
+    // but for semesters with courses, deep comparison is safer.
+    const hasDataChanged =
+      userRecord?.facultyCode !== currentData.facultyCode ||
+      userRecord?.programCode !== currentData.programCode ||
+      // Simple JSON stringify comparison for semesters.
+      // Be cautious with this for very large objects, but it's often practical.
+      JSON.stringify(userRecord?.semesters || []) !== JSON.stringify(currentData.semesters);
+
+    if (!hasDataChanged && userRecord) {
+      // If data hasn't changed and a userRecord already exists, no need to update.
+      return;
+    }
+
+    // Decide whether to update existing or save new
+    if (userRecord) {
+      updateUserRecord.mutate(currentData);
+    } else {
+      // Only save a new record if it genuinely doesn't exist yet based on userRecord being undefined.
+      saveUserRecord.mutate(currentData);
+    }
+
+  }, [selectedFaculty, selectedProgram, semesters, userRecord, isInitialLoadComplete, saveUserRecord.isPending, updateUserRecord.isPending]);
 
   /**
    * Calculates the cumulative GPA based on all courses across all semesters.
