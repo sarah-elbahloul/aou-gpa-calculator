@@ -1,7 +1,44 @@
-node_modules
-dist
-.DS_Store
-server/public
-vite.config.ts.*
-*.tar.gz
+# --- Vite & Build Config ---
+dist/
+build/
+vite.config.ts
+vite-env.d.ts
+
+# --- Environment Variables ---
 .env
+.env.local
+.env.*.local
+.env.*
+
+# --- Node ---
+node_modules/
+*.tsbuildinfo
+
+# --- Logs ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE Configs ---
+.vscode/
+.idea/
+launch.json
+
+# --- Firebase ---
+firebase-debug.log
+.firebase/
+
+# --- Caching (e.g., tools or bundlers) ---
+.cache/
+
+# --- Python Cache (from python_helpers/) ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env

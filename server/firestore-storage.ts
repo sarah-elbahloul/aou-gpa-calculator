@@ -2,15 +2,17 @@ import { Firestore, getFirestore, collection, getDocs, query, where, doc, getDoc
 import { initializeApp, type FirebaseApp } from "firebase/app";
 import type { Faculty, Program, Course, UserRecord, InsertUserRecord, InsertFaculty, InsertProgram, InsertCourse } from "@shared/schema";
 import { insertFacultySchema, insertProgramSchema, insertCourseSchema, insertUserRecordSchema } from "@shared/schema";
+import dotenv from 'dotenv';
+dotenv.config();
 
 const firebaseConfig = {
-    apiKey: "AIzaSyD_kIGHwN-_bLhqp3aKMHJhxpFjUKEgE-U",
-    authDomain: "aou-gpa-calculator.firebaseapp.com",
-    projectId: "aou-gpa-calculator",
-    storageBucket: "aou-gpa-calculator.appspot.com",
-    messagingSenderId: "793865161678",
-    appId: "1:793865161678:web:c9e8015a101e3e20bef99f",
-    measurementId: "G-EE967Y0X95",
+    apiKey: process.env.VITE_FIREBASE_API_KEY,
+    authDomain: process.env.VITE_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.VITE_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.VITE_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.VITE_FIREBASE_APP_ID,
+    measurementId: process.env.VITE_FIREBASE_MEASUREMENT_ID,
 };
 
 export class FirestoreStorage {

@@ -331,16 +331,23 @@ export function GPACalculator() {
         </div>
       </header>
 
+      {/* Hero Intro Section */}
+      <section className="bg-white border-b border-gray-200">
+        <div className="container mx-auto px-4 py-8 text-center max-w-4xl">
+          <h2 className="text-2xl md:text-3xl font-bold text-blue-800 mb-3">
+            🎓 Your GPA, Your Way — Instantly!
+          </h2>
+          <p className="text-gray-700 text-base md:text-lg">
+            A smart and simple GPA calculator designed exclusively for <strong>Arab Open University</strong> students.
+            Choose your faculty & program, add your courses & grades, and watch your GPA appear in real-time! — no logins, no setup!
+          </p>
+          <p className="mt-4 text-sm text-gray-500">
+            Your progress is saved automatically in your session — so feel free to come back anytime. 📌
+          </p>
+        </div>
+      </section>
+
       <main className="container mx-auto px-4 py-8 max-w-4xl">
-        {/* Welcome Card */}
-        <Card className="mb-8">
-          <CardContent className="p-6">
-            <div className="text-center">
-              <h2 className="text-xl font-medium text-gray-800 mb-2">Calculate Your GPA</h2>
-              <p className="text-gray-600">Select your Faculty, Program, and add your courses to calculate your cumulative and semester GPA</p>
-            </div>
-          </CardContent>
-        </Card>
 
         {/* Faculty and Program Selection */}
         <FacultyProgramSelection
@@ -429,8 +436,7 @@ export function GPACalculator() {
                       ? "Loading..."
                       : requiredCredits !== null
                         ? estimatedGraduationYear
-                        : "N/A"
-                    }
+                        : "N/A"}
                   </div>
                   <div className="text-sm text-gray-600">Est. Graduation</div>
                 </div>
@@ -443,22 +449,18 @@ export function GPACalculator() {
       <footer className="bg-gray-800 text-white py-6 mt-12">
         <div className="container mx-auto px-4 text-center">
           <div className="flex justify-center items-center mt-2 space-x-4">
-            <p>Built by Sarah Elbahloul</p>
+            <p>Built by sarah-elbahloul </p>
             <a
               href="https://www.linkedin.com/in/sarah-elbahloul/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-400 hover:text-blue-300"
             >
-              <svg
-                fill="currentColor"
-                viewBox="0 0 24 24"
-                className="w-6 h-6"
-                aria-hidden="true"
-              >
-                {LinkedInIcon}
-                <path d="M16.35 16.35h-2.1c0 0 0-3.69 0-3.9 0-.21.09-.43.3-.59.21-.16.51-.21.71-.21.9 0 1.21.68 1.21 1.63v3.07zM20 20h-3.69v-5.83c0-1.42-.51-2.3-1.89-2.3-1.02 0-1.63.68-1.89 1.34h-.05v-1.12H10V20h3.7V14.3c0-.1.01-.2.02-.31.07-.4.32-.67.75-.67.54 0 .9.39.9.96V20H20v-.05zM7.17 9.12a2 2 0 10-.01-4 2 2 0 000 4zM5.27 20H9V9.17H5.27V20zM22 0H2C.9 0 0 .9 0 2v20c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z" />
-              </svg>
+              <img
+                src={LinkedInIcon}
+                alt="LinkedIn"
+                className="w-6 h-6 inline-block"
+              />
               <span className="sr-only">LinkedIn</span>
             </a>
             <a
@@ -467,24 +469,17 @@ export function GPACalculator() {
               rel="noopener noreferrer"
               className="text-blue-400 hover:text-blue-300"
             >
-              <svg
-                fill="currentColor"
-                viewBox="0 0 24 24"
-                className="w-6 h-6"
-                aria-hidden="true"
-              >
-                {GitHubIcon}
-                <path
-                  fillRule="evenodd"
-                  d="M12 2C6.477 2 2 6.484 2 12.017c0 4.418 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.529 2.341 1.088 2.91.829.091-.642.359-1.083.654-1.334-2.22-.253-4.555-1.113-4.555-4.93 0-1.09.39-1.984 1.029-2.685-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0112 6.844c.85.004 1.701.12 2.499.356 1.909-1.296 2.747-1.025 2.747-1.025.546 1.379.202 2.398.099 2.65.64.701 1.029 1.595 1.029 2.685 0 3.826-2.339 4.673-4.566 4.92.369.317.672.92.672 1.855 0 1.33-.012 2.41-.012 2.727 0 .267.18.577.688.484C21.137 20.28 24 16.518 24 12.017 24 6.484 19.522 2 14 2h-2z"
-                  clipRule="evenodd"
-                />
-              </svg>
+              <img
+                src={GitHubIcon}
+                alt="GitHub"
+                className="w-6 h-6 inline-block"
+              />
               <span className="sr-only">GitHub</span>
             </a>
           </div>
         </div>
       </footer>
-    </div>
+
+    </div >
   );
 }
