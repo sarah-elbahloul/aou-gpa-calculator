@@ -1,8 +1,6 @@
 # --- Vite & Build Config ---
 dist/
 build/
-build
-dist
 vite.config.ts
 vite-env.d.ts
 
@@ -27,15 +25,12 @@ yarn-error.log*
 Thumbs.db
 
 # --- IDE Configs ---
-.vscode
 .vscode/
-.idea
 .idea/
 launch.json
 
 # --- Firebase ---
 firebase-debug.log
-.firebase
 .firebase/
 
 # --- Caching (e.g., tools or bundlers) ---
