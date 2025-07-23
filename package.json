@@ -3,14 +3,11 @@
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
-  "homepage": "https://sarah-elbahloul.github.io/aou-gpa-calculator",
   "scripts": {
     "dev": "tsx server/index.ts",
     "build": "vite build",
     "preview": "vite preview",
-    "type-check": "tsc --noEmit",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
