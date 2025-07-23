@@ -8,8 +8,7 @@
     "dev": "tsx server/index.ts",
     "build": "vite build",
     "preview": "vite preview",
-    "type-check": "tsc --noEmit",
-    "deploy": "gh-pages -d dist"
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
