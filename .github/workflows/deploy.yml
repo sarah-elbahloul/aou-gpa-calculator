@@ -21,6 +21,12 @@ jobs:
           node-version: '20' # Specify the Node.js version (use a recent LTS)
           cache: 'npm' # Cache npm dependencies for faster builds
 
+      # NEW: Clean node_modules and package-lock.json to prevent rollup errors
+      - name: Clean node_modules and package-lock.json
+        run: |
+          rm -rf node_modules
+          rm -f package-lock.json
+
       - name: Install dependencies
         run: npm ci # Use npm ci for clean installs in CI environments
 
