@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
+  "homepage": "https://github.com/sarah-elbahloul/aou-gpa-calculator",
   "scripts": {
     "dev": "tsx server/index.ts",
     "build": "vite build",
