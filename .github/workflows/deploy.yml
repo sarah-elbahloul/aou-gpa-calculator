@@ -1,0 +1,39 @@
+# .github/workflows/deploy.yml
+
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Trigger this workflow on pushes to the main branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest # Use a fresh Ubuntu environment
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4 # Checkout your repository code
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # Specify the Node.js version (use a recent LTS)
+          cache: 'npm' # Cache npm dependencies for faster builds
+
+      - name: Install dependencies
+        run: npm ci # Use npm ci for clean installs in CI environments
+
+      - name: Build project
+        run: npm run build # Run your build script (tsc && vite build)
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }} # GitHub's built-in token
+          publish_dir: ./dist # The directory containing your built application
+          # Set the branch to deploy to. For user/organization pages, it's `main` or `master`.
+          # For project pages, it's typically `gh-pages`.
+          # Since you want to deploy from 'main' to GitHub Pages, we will set the publish branch to 'gh-pages'
+          # and configure GitHub Pages to serve from the 'gh-pages' branch.
+          publish_branch: gh-pages
