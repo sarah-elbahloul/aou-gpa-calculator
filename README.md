@@ -20,7 +20,7 @@ I've used some of the snazziest tech out there to make this calculator smooth, f
 * **Wouter**: Handles all the navigation behind the scenes. 🗺️
 * **React Hook Form & Zod**: Makes filling out forms a breeze and keeps your data squeaky clean. ✅
 
-### On the User's Side (Frontend Heroes) 🦸‍♀️
+### User's Side Main Components (Frontend Heroes) 🦸‍♀️
 
 * **GPACalculator**: The main brain of the operation, handling all the magic. ✨
 * **DepartmentMajorSelection**: Simple dropdowns to get you started. 🔽
@@ -35,7 +35,6 @@ I've used some of the snazziest tech out there to make this calculator smooth, f
 3.  **Course Catcher**: Search for courses in real-time – I even stop you from adding duplicates! 🚫👯
 4.  **Grade Time!**: Pop in your grades using AOU's grading scale. 📝
 5.  **GPA Reveal!**: Watch as your semester and cumulative GPAs are calculated instantly. 🚀
-6.  
 ---
 
 ## Our Awesome Tech Toolbox! 🧰
@@ -61,4 +60,3 @@ I've used some of the snazziest tech out there to make this calculator smooth, f
 
 * **For Devs**: A simple `npm run dev` gets everything spinning! 💻
 * **For the World**: `npm run build` prepares the app for launch! 🌐
-* **Database Updates**: `npm run db:push` applies any new database changes. ⬆️
