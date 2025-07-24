@@ -62,9 +62,3 @@ I've used some of the snazziest tech out there to make this calculator smooth, f
 * **For Devs**: A simple `npm run dev` gets everything spinning! 💻
 * **For the World**: `npm run build` prepares the app for launch! 🌐
 * **Database Updates**: `npm run db:push` applies any new database changes. ⬆️
-
-### What You'll Need
-
-Just a few environment variables for any other services I might connect to! 🔑
-
----
