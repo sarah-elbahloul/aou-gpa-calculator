@@ -32,11 +32,14 @@ export function GPACalculator() {
   useEffect(() => {
     const loadData = async () => {
       try {
+        const base = import.meta.env.BASE_URL;
+
         const [facultiesRes, programsRes, coursesRes] = await Promise.all([
-          fetch('/faculties.json'),
-          fetch('/programs.json'),
-          fetch('/courses.json'),
+          fetch(`${base}faculties.json`),
+          fetch(`${base}programs.json`),
+          fetch(`${base}courses.json`),
         ]);
+
 
         if (!facultiesRes.ok) throw new Error(`Failed to load faculties.json: ${facultiesRes.statusText}`);
         if (!programsRes.ok) throw new Error(`Failed to load programs.json: ${programsRes.statusText}`);
