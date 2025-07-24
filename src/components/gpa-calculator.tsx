@@ -1,214 +1,101 @@
 import { useState, useEffect } from "react";
-import { FacultyProgramSelection } from "./department-major-selection";
+import { FacultyProgramSelection } from "./faculty-program-selection";
 import { SemesterManagement } from "./semester-management";
 import { GradeScale } from "./grade-scale";
 import { Card, CardContent } from "./ui/card";
 import { Button } from "./ui/button";
 import { Calculator, GraduationCap, TrendingUp } from "lucide-react";
-import { gradePoints, UserRecord } from "@shared/schema";
-import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
-import { apiRequest } from "@/lib/queryClient";
-import { useToast } from "@/hooks/use-toast";
+import { gradePoints, Program, Semester, Course, Faculty } from "@shared/schema";
+import { useToast } from "../hooks/use-toast";
 import LinkedInIcon from '../assets/LinkedInIcon.svg';
 import GitHubIcon from '../assets/GitHubIcon.svg';
-import type { Course, Program, Semester } from "@shared/schema";
-
-// Helper function to get or generate session ID
-const getOrCreateSessionId = () => {
-  let sessionId = localStorage.getItem('gpa_calculator_session_id');
-  if (!sessionId) {
-    sessionId = Math.random().toString(36).substr(2, 9);
-    localStorage.setItem('gpa_calculator_session_id', sessionId);
-  }
-  return sessionId;
-};
-
 
 export function GPACalculator() {
-  // Initialize sessionId by trying to get it from localStorage, or creating a new one
-  const [sessionId] = useState(getOrCreateSessionId); // State to manage a unique session ID for user data persistence
-  const [selectedFaculty, setSelectedFaculty] = useState(""); // State to store the currently selected faculty
-  const [selectedProgram, setSelectedProgram] = useState(""); // State to store the currently selected program within the faculty
-  const [requiredCredits, setRequiredCredits] = useState<number | null>(null); // State to store the total required credits for the selected program
-  const [semesters, setSemesters] = useState<Semester[]>([]); // State to store the list of semesters, each containing courses
-  const [cumulativeGPA, setCumulativeGPA] = useState(0); // State to store the calculated cumulative GPA
-  const [totalCredits, setTotalCredits] = useState(0); // State to store the total credits earned across all semesters
-  const [completedCourses, setCompletedCourses] = useState(0); // State to store the number of courses completed
+  // States for static data loaded from JSON
+  const [allFaculties, setAllFaculties] = useState<Faculty[]>([]);
+  const [allPrograms, setAllPrograms] = useState<Program[]>([]);
+  const [allCourses, setAllCourses] = useState<Course[]>([]);
+  const [dataLoadingError, setDataLoadingError] = useState<string | null>(null);
 
-  // Add a state to track if initial load is complete and data is hydrated
-  const [isInitialLoadComplete, setIsInitialLoadComplete] = useState(false);
+  // User-selected states (these will reset on refresh)
+  const [selectedFaculty, setSelectedFaculty] = useState("");
+  const [selectedProgram, setSelectedProgram] = useState("");
+  const [requiredCredits, setRequiredCredits] = useState<number | null>(null);
+  const [semesters, setSemesters] = useState<Semester[]>([]);
+  const [cumulativeGPA, setCumulativeGPA] = useState(0);
+  const [totalCredits, setTotalCredits] = useState(0);
+  const [completedCourses, setCompletedCourses] = useState(0);
 
-  const { toast } = useToast(); // Hook to access the toast notification system
-  const queryClient = useQueryClient(); // Hook to interact with the React Query cache
+  const { toast } = useToast();
 
-  /**
-   * useQuery hook to load user record from the API.
-   * This fetches saved faculty, program, and semester data for the current session.
-   * The data is fetched only once per session and cached.
-   */
-  const { data: userRecord } = useQuery<UserRecord | undefined>({
-    queryKey: ['/api/user-record', sessionId],
-    queryFn: async () => {
-      try {
-        const response = await apiRequest('GET', `/api/user-record/${sessionId}`);
-        if (!response.ok) {
-          if (response.status === 404) { // Handle case where user record might not exist yet
-            return undefined;
-          }
-          throw new Error('Network response was not ok');
-        }
-        return response.json();
-      } catch (error) {
-        console.error("Error fetching user record:", error);
-        return undefined; // Return undefined on error to prevent issues
-      }
-    },
-    staleTime: Infinity, // Or a suitable time if you want to refetch on focus/mount
-  });
-
-  /**
-   * useQuery hook to fetch program details (e.g., required credit hours).
-   * This query is enabled only when a program is selected.
-   */
-  const { data: programData, isLoading: isLoadingProgram } = useQuery<Program | undefined>({
-    queryKey: ['/api/programs', selectedProgram],
-    queryFn: async () => {
-      if (!selectedProgram) return undefined;
-      try {
-        const response = await apiRequest('GET', `/api/program-details?programCode=${encodeURIComponent(selectedProgram)}`);
-        if (!response.ok) {
-          if (response.status === 404) {
-            console.warn(`Program details not found for: ${selectedProgram}`);
-            return undefined;
-          }
-          throw new Error('Network response was not ok');
-        }
-        return response.json();
-      } catch (error) {
-        console.error("Error fetching program details:", error);
-        return undefined;
-      }
-    },
-    enabled: !!selectedProgram, // Only enable this query if a program is selected
-    staleTime: Infinity,
-  });
-
-  /**
-   * useEffect hook to update the `requiredCredits` state when `programData` changes.
-   * This ensures the required credits are always in sync with the selected program.
-   */
+  // Step 1: Load JSON data on component mount
   useEffect(() => {
-    if (programData?.requiredCreditHours !== undefined) {
-      setRequiredCredits(programData.requiredCreditHours);
+    const loadData = async () => {
+      try {
+        const [facultiesRes, programsRes, coursesRes] = await Promise.all([
+          fetch('/faculties.json'),
+          fetch('/programs.json'),
+          fetch('/courses.json'),
+        ]);
+
+        if (!facultiesRes.ok) throw new Error(`Failed to load faculties.json: ${facultiesRes.statusText}`);
+        if (!programsRes.ok) throw new Error(`Failed to load programs.json: ${programsRes.statusText}`);
+        if (!coursesRes.ok) throw new Error(`Failed to load courses.json: ${coursesRes.statusText}`);
+
+        const facultiesData: Faculty[] = await facultiesRes.json();
+        const programsData: Program[] = await programsRes.json();
+        const coursesData: Course[] = await coursesRes.json();
+
+        setAllFaculties(facultiesData);
+        setAllPrograms(programsData);
+        setAllCourses(coursesData);
+
+      } catch (error) {
+        console.error("Error loading static data:", error);
+        setDataLoadingError("Failed to load academic data. Please try again later.");
+        toast({
+          title: "Data Loading Error",
+          description: "Could not load academic information (faculties, programs, courses).",
+          variant: "destructive",
+        });
+      }
+    };
+    loadData();
+  }, []); // Empty dependency array means this runs once on mount
+
+
+  // Effect to update requiredCredits when selectedProgram changes
+  useEffect(() => {
+    if (selectedProgram && allPrograms.length > 0) {
+      const program = allPrograms.find(p => p.code === selectedProgram);
+      if (program?.requiredCreditHours !== undefined) {
+        setRequiredCredits(program.requiredCreditHours);
+      } else {
+        setRequiredCredits(null); // Reset if program data is not found or credits are missing
+      }
     } else {
-      setRequiredCredits(null); // Reset if programData is not found or credits are missing
+      setRequiredCredits(null); // Reset if no program is selected
     }
-  }, [programData]);
+  }, [selectedProgram, allPrograms]); // Depend on selectedProgram and allPrograms data
 
-
-  /**
-   * useEffect hook to clear all semester information when the selected faculty changes.
-   * This ensures that old semester data from a different faculty is not retained.
-   */
+  // Effect to clear semesters when selected faculty changes (UX improvement)
   useEffect(() => {
-    // Only clear semesters if selectedFaculty actually changes and is not initially empty
-    // This code runs AFTER every render where 'selectedFaculty' has changed.
-    if (selectedFaculty && userRecord && userRecord.facultyCode !== selectedFaculty) {
+    if (selectedFaculty && semesters.length > 0) {
       setSemesters([]); // Clear all semesters
       setCumulativeGPA(0); // Reset GPA
       setTotalCredits(0); // Reset total credits
       setCompletedCourses(0); // Reset completed courses
-      setSelectedProgram("");
-      toast({
-        title: "Faculty Changed",
-        description: "All semester information has been cleared.",
-      });
-    }
-  }, [selectedFaculty]); // Dependency array: React will only re-run the code inside the useEffect if any of the values in this array have changed since the last render.
+      setSelectedProgram(""); // Also reset program when faculty changes
 
-  /**
-   * useMutation hook for saving a new user record to the API.
-   * Invalidates the user record query on success to refetch the latest data.
-   */
-
-  // Save user record mutation
-  const saveUserRecord = useMutation({
-    mutationFn: async (data: any) => {
-      const response = await apiRequest('POST', '/api/user-record', data);
-      return response.json();
-    },
-    onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ['/api/user-record', sessionId] });
-    },
-  });
-
-  /**
-   * useMutation hook for updating an existing user record in the API.
-   * Invalidates the user record query on success to refetch the latest data.
-   */
-  // Update user record mutation
-  const updateUserRecord = useMutation({
-    mutationFn: async (data: any) => {
-      const response = await apiRequest('PUT', `/api/user-record/${sessionId}`, data);
-      return response.json();
-    },
-    onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ['/api/user-record', sessionId] });
-    },
-  });
-
-  /**
-   * useEffect hook to load saved user data into the component's state
-   * once the `userRecord` is fetched.
-   */
-  // Load saved data
-  useEffect(() => {
-    if (userRecord) {
-      setSelectedFaculty(userRecord.facultyCode || "");
-      setSelectedProgram(userRecord.programCode || "");
-      setSemesters(userRecord.semesters || []);
-    }
-  }, [userRecord]);
-
-  /**
-   * useEffect hook to load saved user data into the component's state
-   * once the `userRecord` is fetched.
-   */
-  useEffect(() => {
-    if (userRecord) {
-      setSelectedFaculty(userRecord.facultyCode || "");
-      setSelectedProgram(userRecord.programCode || "");
-      setSemesters(userRecord.semesters || []);
-      setIsInitialLoadComplete(true); // Mark initial load as complete
-    } else if (userRecord === undefined && !isInitialLoadComplete) {
-      // If userRecord is explicitly undefined (e.g., 404) and it's the very first load attempt,
-      // we can consider the initial load complete and ready to potentially save a new record.
-      // This handles the case where no record exists initially.
-      setIsInitialLoadComplete(true);
-    }
-  }, [userRecord]);
-
-
-  // Save data when it changes
-  useEffect(() => {
-    if (selectedFaculty && selectedProgram && (userRecord !== undefined || (userRecord === undefined && !saveUserRecord.isPending && !updateUserRecord.isPending))) {
-      const userData = {
-        sessionId,
-        facultyCode: selectedFaculty,
-        programCode: selectedProgram,
-        semesters,
-      };
-      if (userRecord) {
-        updateUserRecord.mutate(userData);
-      } else {
-        saveUserRecord.mutate(userData);
+      // Show toast only if a faculty was actually selected before and now changed
+      if (selectedFaculty !== "" && semesters.length > 0) {
+        toast({
+          title: "Faculty Changed",
+          description: "All semester information has been cleared. Please select a new program and add courses.",
+        });
       }
     }
-  }, [selectedFaculty, selectedProgram, semesters,]);
-
-
-
-
+  }, [selectedFaculty]); // Dependency array: React will only re-run if selectedFaculty changes.
 
 
   /**
@@ -257,7 +144,7 @@ export function GPACalculator() {
     }
 
     const newSemester: Semester = {
-      id: Date.now().toString(),
+      id: Date.now().toString(), // Unique ID for the semester
       name: `Semester ${semesters.length + 1}`,
       courses: [],
     };
@@ -317,6 +204,18 @@ export function GPACalculator() {
     ? new Date().getFullYear() + estimatedYearsRemaining
     : "N/A";
 
+  if (dataLoadingError) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-background">
+        <Card className="p-8 text-center">
+          <h2 className="text-2xl font-bold text-red-600 mb-4">Error Loading Data</h2>
+          <p className="text-gray-700">{dataLoadingError}</p>
+          <p className="text-sm text-gray-500 mt-2">Please ensure `faculties.json`, `programs.json`, and `courses.json` are in your public folder.</p>
+        </Card>
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
@@ -339,10 +238,10 @@ export function GPACalculator() {
           </h2>
           <p className="text-gray-700 text-base md:text-lg">
             A smart and simple GPA calculator designed exclusively for <strong>Arab Open University</strong> students.
-            Choose your faculty & program, add your courses & grades, and watch your GPA appear in real-time! — no logins, no setup!
+            Choose your faculty & program, add your courses & grades, and watch your GPA appear in real-time!
           </p>
           <p className="mt-4 text-sm text-gray-500">
-            Your progress is saved automatically in your session — so feel free to come back anytime. 📌
+            Please note: Your data will reset if you refresh or close the page.
           </p>
         </div>
       </section>
@@ -355,14 +254,16 @@ export function GPACalculator() {
           selectedProgram={selectedProgram}
           onFacultyChange={setSelectedFaculty}
           onProgramChange={setSelectedProgram}
+          allFaculties={allFaculties} // Pass loaded faculties
+          allPrograms={allPrograms}   // Pass loaded programs
         />
 
         {/* Semester Management */}
         {selectedFaculty && selectedProgram && (
           <SemesterManagement
             semesters={semesters}
-            selectedProgram={selectedProgram}
             selectedFaculty={selectedFaculty}
+            allCourses={allCourses} // Pass loaded courses
             onAddSemester={addSemester}
             onRemoveSemester={removeSemester}
             onUpdateSemester={updateSemester}
@@ -432,7 +333,8 @@ export function GPACalculator() {
                 </div>
                 <div className="text-center">
                   <div className="text-2xl font-bold text-gray-800">
-                    {isLoadingProgram
+                    {/* Simplified loading state as programData is no longer an API call */}
+                    {allPrograms.length === 0
                       ? "Loading..."
                       : requiredCredits !== null
                         ? estimatedGraduationYear

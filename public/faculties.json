@@ -1,0 +1,30 @@
+[
+	{
+		"code": "FBS",
+		"name": "Faculty of Business Studies"
+	},
+	{
+		"code": "FCS",
+		"name": "Faculty of Computer Studies"
+	},
+	{
+		"code": "FLS",
+		"name": "Faculty of Language Studies"
+	},
+	{
+		"code": "FE",
+		"name": "Faculty of Education"
+	},
+	{
+		"code": "FLA",
+		"name": "Faculty of Law"
+	},
+	{
+		"code": "FMJ",
+		"name": "Faculty of Media and Journalism"
+	},
+	{
+		"code": "FMC",
+		"name": "Faculty of Media and Mass Communication"
+	}
+]

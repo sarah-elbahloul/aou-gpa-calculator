@@ -1,7 +1,5 @@
 import { z } from "zod";
 
-// Interfaces for Firestore Collections
-
 export interface Faculty {
   code: string;
   name: string;
@@ -19,7 +17,7 @@ export interface Course {
   name: string;
   credits: number;
   facultyCode: string[];
-  grade: string;
+  grade?: string;
 }
 
 export interface Semester {
@@ -27,17 +25,6 @@ export interface Semester {
   name: string;
   courses: Course[];
 }
-
-export interface UserRecord {
-  sessionId: string;
-  facultyCode: string;
-  programCode: string;
-  semesters: Semester[];
-  createdAt: number;
-  updatedAt: number;
-}
-
-// Zod Schemas for Validation
 
 export const insertFacultySchema = z.object({
   code: z.string().max(50),
@@ -48,7 +35,7 @@ export const insertProgramSchema = z.object({
   code: z.string().max(50),
   name: z.string(),
   facultyCode: z.string().max(50),
-  requiredCreditHours: z.number().max(3)
+  requiredCreditHours: z.number() // No max needed unless a specific constraint is applicable
 });
 
 export const insertCourseSchema = z.object({
@@ -56,39 +43,15 @@ export const insertCourseSchema = z.object({
   name: z.string(),
   credits: z.number(),
   facultyCode: z.array(z.string().max(4)),
-  grade: z.string().max(4),
-});
-
-export const insertUserRecordSchema = z.object({
-  sessionId: z.string().max(100),
-  facultyCode: z.string().max(50),
-  programCode: z.string().max(50),
-  semesters: z.array(
-    z.object({
-      id: z.string(),
-      name: z.string(),
-      courses: z.array(
-        z.object({
-          code: z.string(),
-          name: z.string(),
-          credits: z.number(),
-          facultyCode: z.array(z.string().max(3)),
-          grade: z.string(),
-        })
-      ),
-    })
-  ),
+  grade: z.string().max(4).optional(), // Grade is optional on initial course load
 });
 
 // Types
-
 export type InsertFaculty = z.infer<typeof insertFacultySchema>;
 export type InsertProgram = z.infer<typeof insertProgramSchema>;
 export type InsertCourse = z.infer<typeof insertCourseSchema>;
-export type InsertUserRecord = z.infer<typeof insertUserRecordSchema>;
 
 // Grade mappings (unchanged)
-
 export const gradePoints: Record<string, number> = {
   'A': 4.0,
   'B+': 3.5,

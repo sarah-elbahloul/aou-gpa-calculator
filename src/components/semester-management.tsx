@@ -1,16 +1,16 @@
 import { useState } from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { CourseSearch } from "./course-search";
+import { Card, CardContent } from "../components/ui/card";
+import { Button } from "../components/ui/button";
+import { Input } from "../components/ui/input";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../components/ui/select";
+import { CourseSearch } from "./course-search"; // Make sure this path is correct
 import { Calendar, Plus, Trash2, Book } from "lucide-react";
 import { gradeOptions, gradePoints, Semester, Course } from "@shared/schema";
 
 interface SemesterManagementProps {
   semesters: Semester[];
-  selectedProgram: string; // Corresponds to `programCode` from UserRecord
-  selectedFaculty: string; // <--- ADDED: Corresponds to `facultyCode` from UserRecord
+  selectedFaculty: string;
+  allCourses: Course[]; // New prop: all courses loaded from JSON
   onAddSemester: () => void;
   onRemoveSemester: (semesterId: string) => void;
   onUpdateSemester: (semesterId: string, semester: Semester) => void;
@@ -18,8 +18,8 @@ interface SemesterManagementProps {
 
 export function SemesterManagement({
   semesters,
-  selectedProgram,
   selectedFaculty,
+  allCourses,
   onAddSemester,
   onRemoveSemester,
   onUpdateSemester,
@@ -138,9 +138,10 @@ export function SemesterManagement({
                   </Button>
                 </div>
 
+                {/* Pass allCourses and selectedFaculty to CourseSearch */}
                 <CourseSearch
-                  selectedProgram={selectedProgram}
-                  selectedFaculty={selectedFaculty} // <--- PASSED THE NEW PROP HERE!
+                  allCourses={allCourses} // Pass all courses
+                  selectedFaculty={selectedFaculty}
                   onCourseSelect={(course) => addCourseToSemester(semester.id, course)}
                   existingCourses={semester.courses.map(c => c.code)}
                 />

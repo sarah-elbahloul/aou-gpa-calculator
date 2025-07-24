@@ -49,7 +49,7 @@ export async function setupVite(app: Express) {
     const url = req.originalUrl;
 
     try {
-      const clientTemplate = path.resolve(__dirname, "..", "public", "index.html");
+      const clientTemplate = path.resolve(__dirname, "..", "index.html");
 
       let template = await fs.promises.readFile(clientTemplate, "utf-8");
       template = template.replace(

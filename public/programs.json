@@ -1,0 +1,380 @@
+[
+	{
+		"code": "D-BS",
+		"facultyCode": "FBS",
+		"name": "Diploma in Business Studies",
+		"requiredCreditHours": 65
+	},
+	{
+		"code": "BA-A",
+		"facultyCode": "FBS",
+		"name": "BA in Accounting",
+		"requiredCreditHours": 132
+	},
+	{
+		"code": "BA-MF",
+		"facultyCode": "FBS",
+		"name": "BA in Microfinance",
+		"requiredCreditHours": 127
+	},
+	{
+		"code": "BA-HRM",
+		"facultyCode": "FBS",
+		"name": "BA in Human Resource Management",
+		"requiredCreditHours": 133
+	},
+	{
+		"code": "BA-RMI",
+		"facultyCode": "FBS",
+		"name": "BA in Risk Management and Insurance",
+		"requiredCreditHours": 133
+	},
+	{
+		"code": "BA-BS-A",
+		"facultyCode": "FBS",
+		"name": "BA (Honours) in Business Studies (Accounting)",
+		"requiredCreditHours": 133
+	},
+	{
+		"code": "BA-BS-AA",
+		"facultyCode": "FBS",
+		"name": "BA (Honours) in Business Studies (Accounting in Arabic)",
+		"requiredCreditHours": 129
+	},
+	{
+		"code": "BA-BS-E",
+		"facultyCode": "FBS",
+		"name": "BA (Honours) in Business Studies (Economics)",
+		"requiredCreditHours": 133
+	},
+	{
+		"code": "BA-BS-FM",
+		"facultyCode": "FBS",
+		"name": "BA (Honours) in Business Studies (Finance and Microfinance)",
+		"requiredCreditHours": 133
+	},
+	{
+		"code": "BA-BS-HRM",
+		"facultyCode": "FBS",
+		"name": "BA (Honours) in Business Studies (Human Resources Management)",
+		"requiredCreditHours": 133
+	},
+	{
+		"code": "BA-BS-MIS",
+		"facultyCode": "FBS",
+		"name": "BA (Honours) in Business Studies (Management Information Systems)",
+		"requiredCreditHours": 133
+	},
+	{
+		"code": "BA-BS-M",
+		"facultyCode": "FBS",
+		"name": "BA (Honours) in Business Studies (Management)",
+		"requiredCreditHours": 133
+	},
+	{
+		"code": "BA-BS-MA",
+		"facultyCode": "FBS",
+		"name": "BA (Honours) in Business Studies (Marketing)",
+		"requiredCreditHours": 133
+	},
+	{
+		"code": "BA-BS-S",
+		"facultyCode": "FBS",
+		"name": "BA (Honours) in Business Studies (Systems Practice)",
+		"requiredCreditHours": 133
+	},
+	{
+		"code": "MBA-G",
+		"facultyCode": "FBS",
+		"name": "Masters of Accounting",
+		"requiredCreditHours": 33
+	},
+	{
+		"code": "M-BA-G",
+		"facultyCode": "FBS",
+		"name": "Masters in Business Administration (General)",
+		"requiredCreditHours": 48
+	},
+	{
+		"code": "M-BA-F",
+		"facultyCode": "FBS",
+		"name": "Masters in Business Administration (Finance)",
+		"requiredCreditHours": 48
+	},
+	{
+		"code": "M-BA-HRM",
+		"facultyCode": "FBS",
+		"name": "Masters in Business Administration (human Resource Management)",
+		"requiredCreditHours": 48
+	},
+	{
+		"code": "D-AI",
+		"facultyCode": "FCS",
+		"name": "Diploma in Artificial Intelligence",
+		"requiredCreditHours": 64
+	},
+	{
+		"code": "D-CY",
+		"facultyCode": "FCS",
+		"name": "Diploma in Cyber Security",
+		"requiredCreditHours": 64
+	},
+	{
+		"code": "D-ITC",
+		"facultyCode": "FCS",
+		"name": "Diploma in Information Technology and Computing",
+		"requiredCreditHours": 61
+	},
+	{
+		"code": "BSc-ITC-ITC",
+		"facultyCode": "FCS",
+		"name": "BSc (Honours) in Information Technology and Computing (ITC)",
+		"requiredCreditHours": 132
+	},
+	{
+		"code": "BSc-ITC-CS",
+		"facultyCode": "FCS",
+		"name": "BSc (Honours) in Information Technology and Computing (Computer Science)",
+		"requiredCreditHours": 131
+	},
+	{
+		"code": "BSc-ITC-NS",
+		"facultyCode": "FCS",
+		"name": "BSc (Honours) in Information Technology and Computing (Networking & Systems)",
+		"requiredCreditHours": 132
+	},
+	{
+		"code": "BSc-ITC-CB",
+		"facultyCode": "FCS",
+		"name": "BSc (Honours) in Information Technology and Computing (Computing with Business)",
+		"requiredCreditHours": 131
+	},
+	{
+		"code": "BSc-ITC-WD",
+		"facultyCode": "FCS",
+		"name": "BSc (Honours) in Information Technology and Computing (Web Development)",
+		"requiredCreditHours": 131
+	},
+	{
+		"code": "BSc-ITC-CY",
+		"facultyCode": "FCS",
+		"name": "BSc (Honours) in Information Technology and Computing (Cyber Security)",
+		"requiredCreditHours": 131
+	},
+	{
+		"code": "BSc-ITC-DS",
+		"facultyCode": "FCS",
+		"name": "BSc (Honours) in Information Technology and Computing (Data Science)",
+		"requiredCreditHours": 131
+	},
+	{
+		"code": "BSc-ITC-AI",
+		"facultyCode": "FCS",
+		"name": "BSc (Honours) in Information Technology and Computing (Artificial Intelligence)",
+		"requiredCreditHours": 131
+	},
+	{
+		"code": "BSc-DSAI-DS",
+		"facultyCode": "FCS",
+		"name": "BSc (Honours) in Data Science and Artificial Intelligence (Data Science)",
+		"requiredCreditHours": 132
+	},
+	{
+		"code": "BSc-DSAI-AI",
+		"facultyCode": "FCS",
+		"name": "BSc (Honours) in Data Science and Artificial Intelligence (Artificial Intelligence)",
+		"requiredCreditHours": 132
+	},
+	{
+		"code": "BSc-AI",
+		"facultyCode": "FCS",
+		"name": "BSc (Honours) in Artificial Intelligence",
+		"requiredCreditHours": 131
+	},
+	{
+		"code": "BSc-CY",
+		"facultyCode": "FCS",
+		"name": "BSc (Honours) in Cyber Security",
+		"requiredCreditHours": 131
+	},
+	{
+		"code": "BSc-GMDT",
+		"facultyCode": "FCS",
+		"name": "BSc (Honours) in Graphic and Multimedia Design Technology",
+		"requiredCreditHours": 137
+	},
+	{
+		"code": "MSc-CYF",
+		"facultyCode": "FCS",
+		"name": "MSc in Computing (Cyber Security and Forensics)",
+		"requiredCreditHours": 48
+	},
+	{
+		"code": "D-ELL",
+		"facultyCode": "FLS",
+		"name": "Diploma (Hons) in English Language and Literature",
+		"requiredCreditHours": 63
+	},
+	{
+		"code": "BA-ELL",
+		"facultyCode": "FLS",
+		"name": "BA (Honours) in English Language and Literature",
+		"requiredCreditHours": 133
+	},
+	{
+		"code": "BA-ELLT",
+		"facultyCode": "FLS",
+		"name": "BA (Honours) in English Language, Literature and Translation",
+		"requiredCreditHours": 133
+	},
+	{
+		"code": "MA-ELL",
+		"facultyCode": "FLS",
+		"name": "Masters in English Literature",
+		"requiredCreditHours": 48
+	},
+	{
+		"code": "MA-ELL",
+		"facultyCode": "FLS",
+		"name": "Masters in Teaching English as a Foreign Language",
+		"requiredCreditHours": 32
+	},
+	{
+		"code": "D-ECCE",
+		"facultyCode": "FE",
+		"name": "Diploma Early Childhood Care and Education Program",
+		"requiredCreditHours": 63
+	},
+	{
+		"code": "D-T",
+		"facultyCode": "FE",
+		"name": "Teaching Diploma",
+		"requiredCreditHours": 27
+	},
+	{
+		"code": "BA-ED-EE",
+		"facultyCode": "FE",
+		"name": "BA in Education (Elementary Education)",
+		"requiredCreditHours": 132
+	},
+	{
+		"code": "BA-SD-EE",
+		"facultyCode": "FE",
+		"name": "BA in Special Education (Learning Disabilities)",
+		"requiredCreditHours": 132
+	},
+	{
+		"code": "BA-AD-ELS",
+		"facultyCode": "FE",
+		"name": "BA of Arts and Education (English Language Specialization)",
+		"requiredCreditHours": 133
+	},
+	{
+		"code": "BA-CE",
+		"facultyCode": "FE",
+		"name": "BA in Childhood and Education",
+		"requiredCreditHours": 133
+	},
+	{
+		"code": "BA-SE-MS",
+		"facultyCode": "FE",
+		"name": "BA in Science and Education (Math Specialization)",
+		"requiredCreditHours": 133
+	},
+	{
+		"code": "MEd-EL",
+		"facultyCode": "FE",
+		"name": "Master of Education in Educational Leadership",
+		"requiredCreditHours": 36
+	},
+	{
+		"code": "MEd-IT",
+		"facultyCode": "FE",
+		"name": "Master of Education in Instructional Technology",
+		"requiredCreditHours": 36
+	},
+	{
+		"code": "BA-LA",
+		"facultyCode": "FLA",
+		"name": "Bachelor in Law",
+		"requiredCreditHours": 131
+	},
+	{
+		"code": "M-PIL",
+		"facultyCode": "FLA",
+		"name": "Master of Private Law",
+		"requiredCreditHours": 33
+	},
+	{
+		"code": "M-PUL",
+		"facultyCode": "FLA",
+		"name": "Master of Public Law",
+		"requiredCreditHours": 33
+	},
+	{
+		"code": "BA-MJ-EJ",
+		"facultyCode": "FMJ",
+		"name": "Bachelor in Media and Journalism (E-Journalism)",
+		"requiredCreditHours": 132
+	},
+	{
+		"code": "BA-MJ-PR",
+		"facultyCode": "FMJ",
+		"name": "Bachelor in Media and Journalism (Public Relations)",
+		"requiredCreditHours": 132
+	},
+	{
+		"code": "BA-IMC-A",
+		"facultyCode": "FMC",
+		"name": "Bachelor in Integrated Marketing Communication (Advertising)",
+		"requiredCreditHours": 132
+	},
+	{
+		"code": "BA-IMC-PUR",
+		"facultyCode": "FMC",
+		"name": "Bachelor in Integrated Marketing Communication (Public Relations)",
+		"requiredCreditHours": 132
+	},
+	{
+		"code": "BA-MRT-R",
+		"facultyCode": "FMC",
+		"name": "Bachelor in Mass Communication Radio and TV (Radio)",
+		"requiredCreditHours": 132
+	},
+	{
+		"code": "BA-MRT-TV",
+		"facultyCode": "FMC",
+		"name": "Bachelor in Mass Communication Radio and TV (TV)",
+		"requiredCreditHours": 132
+	},
+	{
+		"code": "BA-NJOUR-DJ",
+		"facultyCode": "FMC",
+		"name": "Bachelor in News Journalism (Digital Journalism)",
+		"requiredCreditHours": 132
+	},
+	{
+		"code": "BA-NJOUR-VJ",
+		"facultyCode": "FMC",
+		"name": "Bachelor in News Journalism (Video Journalism)",
+		"requiredCreditHours": 132
+	},
+	{
+		"code": "M-AM",
+		"facultyCode": "FMC",
+		"name": "Masters in Arab Media",
+		"requiredCreditHours": 33
+	},
+	{
+		"code": "D-IJ",
+		"facultyCode": "FMC",
+		"name": "Investigative Journalism Diploma",
+		"requiredCreditHours": 30
+	},
+	{
+		"code": "D-SM",
+		"facultyCode": "FMC",
+		"name": "Sports Media Diploma",
+		"requiredCreditHours": 30
+	}
+]
